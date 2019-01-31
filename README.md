@@ -43,40 +43,42 @@ Voici la méthode à suivre pour se constituer une liste de mots-clés théamtiq
 
 ### Création
 
-1. Prendre 3h et parcourir votre ensemble de références déjà constitué (c'est plus facile si vous avez déjà un corpus).
+1. Prendre 3h pour parcourir votre ensemble de références (c'est plus facile si vous avez déjà un corpus constitué).
 
-2. Ouvrir un tableau avec deux colonnes dans LibreOffice Writer ou MS Word :
+2. Créer un tableau avec deux colonnes dans LibreOffice Writer ou MS Word :
 
-  - Une colonne avec le mot-clé d'autorité et unique à utiliser pour un thème donné.
+  - Une colonne avec le mot-clé d'autorité unique à utiliser pour un thème donné.
   
-  - Une colonne avec tous les synonymes de ce thème.
+  - Une colonne avec tous les synonymes de ce thème (termes proches, équivalents, en anglais, plus spécifiques, opposés,...)
 
 Exemple : 
 
-| mot-clé d'autorité | synonymes, termes proches, équivalents |
+| mot-clé d'autorité unique | synonymes |
 | --- | --- |
 | \_game | règles du jeu, mécaniques, jouet, toy, boardgame |
 | \_play | attitude ludique, magic circle, fair play, règles sociales |
 
-3. Constituer ainsi un nombre fini de mots-clés uniques (recommandations : 30 à 50 mots-clés).
+3. Constituer ainsi un nombre fini de mots-clés d'autorité uniques (recommandations : 30 à 50 mots-clés).
 
-4. Imprimer le tableau. Si possible sur une feuille verso pour mieux avoir tous les mots-clés uniques et leurs synonymes sur une même page.
+4. Imprimer le tableau. Si possible sur une feuille verso pour mieux avoir tous les mots-clés d'autorité uniques et leurs synonymes sur une même page.
 
 5. Indexer toute votre base de données de références bibliographiques.
 
 ### Maintien
 
-- À partir de maintenant, ajouter de nouveaux mots-clés au fur et à mesure des besoins. 
+- À partir de maintenant, ajouter de nouveaux mots-clés d'autorité uniques à votre liste existante au fur et à mesure des besoins. 
 
-- Un nouveau mot-clé devrait être affecté aux références pertinentes déjà indexées (c'est le plus ennuyeux et le plus fastidieux : repasser à travers tout).
+- Un nouveau mot-clé devrait être affecté à toutes les références pertinentes déjà indexées (c'est le plus ennuyeux et le plus fastidieux : repasser à travers tout).
 
 ### Utilisation avancée 
 
-- Il est possible d'avoir une hiérarchie des mots-clés, du plus général au plus spécifique.
+- Il est possible d'avoir une hiérarchie des mots-clés, du plus général au plus spécifique. Si vous choisissez d'avoir une hiérarchie :
 
-- Éviter d'avoir plus de 4 niveaux, sinon ça devient trop complexe pour une base personnelle.
+  - Éviter d'avoir plus de 4 niveaux, sinon ça devient trop complexe pour une base personnelle.
 
-Exemple de [thésaurus hiérarchique](https://docs.google.com/spreadsheets/d/14ky4xtpcjkVVjsil0IS5OUnPguroUdIJylmp_UDcNbY/edit#gid=0), [article explicatif](https://jdr.hypotheses.org/628).
+  - N'indexer qu'avec : (le plus spécifique) ou bien (le plus spécifique + le plus général)
+
+  - Exemple de [thésaurus hiérarchique](https://docs.google.com/spreadsheets/d/14ky4xtpcjkVVjsil0IS5OUnPguroUdIJylmp_UDcNbY/edit#gid=0), avec un [article explicatif](https://jdr.hypotheses.org/628).
 
 
 ## Base de données partagée
