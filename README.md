@@ -24,17 +24,17 @@ Nous allons voir comment gérer efficacement ces mots-clés.
 
 Voici une suggestion de mots-clés de méthode :
 
-- \_lu
+- **\_lu**
 
-- \_nettoyé : toutes les informations de la référence sont vérifiées (complet, exact, dans les bons champs)
+- **\_nettoyé** : toutes les informations de la référence sont vérifiées (complet, exact, dans les bons champs)
 
-- \indexé : tous les mots-clés thématiques pertinents ont aussi été ajoutés (voir ci-dessous)
+- **\_indexé** : tous les mots-clés thématiques pertinents ont aussi été ajoutés (voir ci-dessous)
 
-- \_pas intéressant : évite de rechecher, relire, réévaluer un document inexploitable (vulgarisation, autres disciplines, post-modernisme,...)
+- **\_pas intéressant** : évite de rechecher, relire, réévaluer un document inexploitable (vulgarisation, autres disciplines, post-modernisme,...)
 
-- \_publication majeure : pour moins de 5% de vos références
+- **\_publication majeure** : pour moins de 5% de vos références
 
-- \_bibliographie analysée : la bibliographie a été parcourue et toutes les autres références pertinentes qui s'y trouvent ont été récupérée dans la base de données de références bibliographiques.
+- **\_bibliographie analysée** : la bibliographie a été parcourue et toutes les autres références pertinentes qui s'y trouvent ont été récupérée dans la base de données de références bibliographiques.
 
 
 ## Mots-clés thématiques
@@ -76,7 +76,7 @@ Exemple de [thésaurus hiérarchique](https://docs.google.com/spreadsheets/d/14k
 
 Dans le cas d'une base de données partagée entre plusieurs membres d'une même équipe de travail, voici quelques recommandations :
 
-- Remplacer le mot-clé \_lu par \_AB (où AB sont un exemple d'initiales de la personne)
+- Remplacer le mot-clé **\_lu** par **\_PM** (où PM sont les initiales de la personne de l'équipe : Pascal Martinolli)
 
 - Désigner un maître du thésaurus dans l'équipe. Seul lui peut ajouter des nouveaux termes à la liste d'autorité (mais les autres peuvent ajouter les mots-clés qu'ils veulent dans les références en attendant que le terme soit validé).
 
@@ -84,7 +84,7 @@ Dans le cas d'une base de données partagée entre plusieurs membres d'une même
 
 ## Besoin d'aide ?
 
-N'hésitez pas à consulter votre bibliothécaire disciplinaire pour la conception ou le maintien de votre thésaurus. C'est notre métier, c'est notre expertise, et c'est aussi notre plaisir que de vous aider avec cet outil particulièrement stimulant.
+N'hésitez pas à consulter votre bibliothécaire disciplinaire pour la conception ou le maintien de votre thésaurus. C'est notre métier, c'est notre expertise, et c'est aussi notre plaisir de vous aider avec cet outil particulièrement stimulant.
 
 
 \
