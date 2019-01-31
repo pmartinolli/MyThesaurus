@@ -54,7 +54,7 @@ Voici la méthode à suivre pour se constituer une liste de mots-clés théamtiq
 Exemple : 
 
 | \_game | règles du jeu, mécaniques, jouet, toy, boardgame |
-
+| --- | --- |
 | \_play | attitude ludique, magic circle, fair play, règles sociales |
 
 3. Constituer ainsi un nombre fini de mots-clés uniques (recommandations : 30 à 50 mots-clés).
