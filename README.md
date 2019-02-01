@@ -10,7 +10,19 @@ L'étudiant se constitue une base de données de références bibliographiques d
 - le "nettoyage" des références bibliographiques
 - l'ajout de mots-clés uniques thématiques et de méthode
 
-Nous allons voir comment gérer efficacement ces mots-clés dans des listes contrôlées d'autorité (des thésaurus).
+Nous allons voir comment gérer efficacement ces mots-clés dans des listes contrôlées d'autorité (des thésaurus). 
+
+### Dossier ou mot-clé ?
+
+Comparés aux dossiers (ie. collections, ou classements, un autre moyen d'organiser les références), les mots-clés (ie. marqueurs, keywords, tags, descripteurs, sujets) sont souvent plus efficaces :
+
+- À partir de 100+ références
+
+- Plus souples (changements, ajouts, suppressions, cumuls, etc.)
+
+- Possibilité de croiser plusieurs mots-clés
+
+- Mieux exportables (les mots-clés sont intégrés dans la référence).
 
 ### Pourquoi le caractère \_ devant les mots-clés ?
 
