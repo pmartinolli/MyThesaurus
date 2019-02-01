@@ -14,7 +14,7 @@ Nous allons voir comment gérer efficacement ces mots-clés dans des listes cont
 
 ### Pourquoi le caractère \_ devant les mots-clés ?
 
-1. Ça signifie que le **mot-clé unique** qui fait autorité pour décrire ce thème (MCU).
+1. Ça signifie que le **mot-clé unique** (MCU) fait autorité pour décrire ce thème.
 
 2. Ça distingue vos MCU des mots-clés récupérés pafois automatiquement. Ça les signe en quelque sorte.
 
