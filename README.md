@@ -94,6 +94,17 @@ Dans le cas d'une base de données partagée entre plusieurs membres d'une même
 N'hésitez pas à consulter votre bibliothécaire disciplinaire pour la conception ou le maintien de votre thésaurus. C'est notre métier, c'est notre expertise, et c'est aussi notre plaisir de vous aider avec cet outil particulièrement stimulant.
 
 
+## Bibliographie
+
+Degez, D. (2009). Construire un thesaurus. Archimag, (222), 44‑45.
+
+Hudon, M. (2009). Guide pratique pour l’élaboration d’un thésaurus documentaire (2ᵉ éd.). Montréal: Éditions ASTED.
+
+Keller, L. (2013). Encadrer la réingénierie d’un thesaurus : méthode, enjeux et impacts pour l’équipe d’un service de veille et documentation en entreprise (Mémoire INTD-CNAM). Institut national des techniques de la documentation du CNAM, Paris. Consulté à l’adresse https://memsic.ccsd.cnrs.fr/mem_00945542/document
+
+
+
+
 \
 \
 https://github.com/pmartinolli/TM-MyThesaurus
