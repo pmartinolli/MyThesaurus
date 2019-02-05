@@ -50,7 +50,7 @@ Voici une suggestion de MCU de méthode :
 
 ### MCU de méthode (avancé)
 
-Voici une suggestion de MCU destinés à évaluer plus finement le contenu :
+Voici une suggestion de MCU destinés à évaluer plus finement le contenu ou à faire un meilleur suivi :
 
 - **\_PR** : Peer-reviewed (révisé par les pairs, par un comité de lecture)
 
