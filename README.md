@@ -68,9 +68,13 @@ Voici une suggestion de MCU destinés à évaluer plus finement le contenu :
 
 - **\_N+** : étude de cohorte ou sur un grand nombre de sujets (n>500)
 
-- **\_Em** : Empirique (pas théorique)
+- **\_Em** : empirique (pas théorique)
 
-- **\_M** : Méta-analyse ou revue systématique
+- **\_M** : méta-analyse ou revue systématique
+
+- **\_[projet]** : marqueur de projet (ex: \_TP2, \_chap5, \_conf2020, etc.)
+
+- **\_ALireUrgent** : à lire d'urgence 
 
 
 ## MCU thématiques
