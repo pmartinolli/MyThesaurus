@@ -48,6 +48,30 @@ Voici une suggestion de MCU de méthode :
 
 - **\_bibliographie analysée** : la bibliographie a été parcourue et toutes les autres références pertinentes qui s'y trouvent ont été récupérée dans la base de données de références bibliographiques.
 
+### MCU de méthode (avancé)
+
+Voici une suggestion de MCU destinés à évaluer plus finement le contenu :
+
+- **\_PR** : Peer-reviewed (révisé par les pairs, par un comité de lecture)
+
+- **\_0.00** : Foutaise
+
+- **\_0.33** : Douteux
+
+- **\_0.66** : Confiance modérée, pourquoi pas ? 
+
+- **\_0.99** : Faits solides basé sur des données probantes
+
+- **\_CX** : dépend fortement du contexte de l'étude, on ne peut généraliser
+
+- **\_R+** : étude répliquée
+
+- **\_N+** : étude de cohorte ou sur un grand nombre de sujets (n>500)
+
+- **\_Em** : Empirique (pas théorique)
+
+- **\_M** : Méta-analyse ou revue systématique
+
 
 ## MCU thématiques
 
