@@ -48,11 +48,9 @@ Voici une suggestion de MCU de méthode :
 
 - **\_bibliographie analysée** : la bibliographie a été parcourue et toutes les autres références pertinentes qui s'y trouvent ont été récupérée dans la base de données de références bibliographiques.
 
-### MCU de méthode (avancé)
+### MCU d'évaluation (de méthode avancée)
 
 Voici une suggestion de MCU destinés à évaluer plus finement le contenu ou à faire un meilleur suivi :
-
-- **\_PR** : Peer-reviewed (révisé par les pairs, par un comité de lecture)
 
 - **\_0.00** : Foutaise
 
@@ -61,6 +59,8 @@ Voici une suggestion de MCU destinés à évaluer plus finement le contenu ou à
 - **\_0.66** : Confiance modérée, pourquoi pas ? 
 
 - **\_0.99** : Faits solides basé sur des données probantes
+
+- **\_PR** : Peer-reviewed (révisé par les pairs, par un comité de lecture)
 
 - **\_CX** : dépend fortement du contexte de l'étude, on ne peut généraliser
 
@@ -75,6 +75,8 @@ Voici une suggestion de MCU destinés à évaluer plus finement le contenu ou à
 - **\_[projet]** : marqueur de projet (ex: \_TP2, \_chap5, \_conf2020, etc.)
 
 - **\_ALireUrgent** : à lire d'urgence 
+
+Il s'agit d'avoir des MCU qui servent à décrire et évaluer brièvement le contenu et la valeur d'un document. C'est plus rapide et simple qu'une bibliographie annotée.
 
 
 ## MCU thématiques
