@@ -2,6 +2,7 @@
 
 MyThesaurus : Design and manage your own personal thesaurus to index and retrieve informations from your reference management software
 
+[Affiche en français (PDF)](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/TM-mythesaurus-v1.0.fr.pdf)
 
 ## Pourquoi ?
 
