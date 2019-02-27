@@ -180,5 +180,4 @@ Keller, L. (2013). Encadrer la réingénierie d’un thesaurus : méthode, enj
 
 \
 \
-
 https://github.com/pmartinolli/TM-MyThesaurus
