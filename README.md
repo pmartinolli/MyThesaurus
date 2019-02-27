@@ -2,7 +2,7 @@
 
 MyThesaurus : Design and manage your own personal thesaurus to index and retrieve informations from your reference management software
 
-[Affiche en français (PDF)](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/TM-mythesaurus-v1.0.fr.pdf)
+[Affiche en français (PDF)](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/TM-mythesaurus-v1.1.fr.pdf)
 
 ## Pourquoi ?
 
@@ -15,7 +15,7 @@ Nous allons voir comment gérer efficacement ces mots-clés dans des listes cont
 
 ### Dossier ou mot-clé ?
 
-Comparés aux dossiers (ie. collections, ou classements, un autre moyen d'organiser les références), les mots-clés (ie. marqueurs, keywords, tags, descripteurs, sujets) sont souvent plus efficaces :
+Comparés aux dossiers (i.e. collections, ou classements, un autre moyen d'organiser les références), les mots-clés (i.e. marqueurs, keywords, tags, descripteurs, sujets) sont souvent plus efficaces :
 
 - À partir de 100+ références
 
@@ -29,29 +29,43 @@ Comparés aux dossiers (ie. collections, ou classements, un autre moyen d'organi
 
 1. Ça signifie que le **mot-clé unique** (MCU) fait autorité pour décrire ce thème.
 
-2. Ça distingue vos MCU des mots-clés récupérés pafois automatiquement. Ça les signe en quelque sorte.
+2. Ça distingue vos MCU des mots-clés récupérés parfois automatiquement. Ça les signe en quelque sorte.
 
-3. Dans Zotero, ça les faits apparaître en premier dans les listes et les nuages de mots-clés.
+3. Ça fait apparaître les MCU en premier dans les listes et les nuages de mots-clés (dans Zotero).
 
 ## MCU de méthode
 
 Voici une suggestion de MCU de méthode :
 
-- **\_lu**
+### Essentiels
 
 - **\_nettoyé** : toutes les informations de la référence sont vérifiées (complet, exact, dans les bons champs)
 
-- **\_indexé** : tous les MCU thématiques pertinents ont aussi été ajoutés (voir ci-dessous)
-
-- **\_pas intéressant** : évite de rechecher, relire, réévaluer un document inexploitable (vulgarisation, autres disciplines, post-modernisme,...)
-
-- **\_publication majeure** : pour moins de 5% de vos références
+- **\_lu**
 
 - **\_bibliographie analysée** : la bibliographie a été parcourue et toutes les autres références pertinentes qui s'y trouvent ont été récupérée dans la base de données de références bibliographiques.
 
-### MCU d'évaluation (de méthode avancée)
+- **\_UrgentALire** : pour souligner une vingtaine de références à aller lire en priorité prochainement
 
-Voici une suggestion de MCU destinés à évaluer plus finement le contenu ou à faire un meilleur suivi :
+### Optionnels
+
+
+- **\_[projet]** : marqueur de projet (ex: \_TP2, \_chap5, \_conf2020, etc.)
+
+- **\_indexé** : tous les MCU thématiques pertinents ont aussi été ajoutés (voir ci-dessous)
+
+
+## MCU d'évaluation et de description
+
+Voici une suggestion de MCU destinés à évaluer plus finement le contenu ou à faire un meilleur suivi. Il s'agit d'avoir des MCU qui servent à décrire et évaluer brièvement le contenu et la valeur d'un document. C'est plus rapide et simple qu'une bibliographie annotée.
+
+### Essentiels
+
+- **\_publication majeure** : pour moins de 5 % de vos références
+
+- **\_pas intéressant** : évite de rechercher, relire, réévaluer un document inexploitable (vulgarisation, autres disciplines, post-modernisme,...) si on retombe dessus dans 6 mois
+
+### Quantifiés sur une échelle
 
 - **\_0.00** : Foutaise
 
@@ -61,7 +75,9 @@ Voici une suggestion de MCU destinés à évaluer plus finement le contenu ou à
 
 - **\_0.99** : Faits solides basé sur des données probantes
 
-- **\_PR** : Peer-reviewed (révisé par les pairs, par un comité de lecture)
+### Descriptifs
+
+- **\_RP** : Révision par les pairs (peer-reviewed, par un comité de lecture)
 
 - **\_CX** : dépend fortement du contexte de l'étude, on ne peut généraliser
 
@@ -73,16 +89,13 @@ Voici une suggestion de MCU destinés à évaluer plus finement le contenu ou à
 
 - **\_M** : méta-analyse ou revue systématique
 
-- **\_[projet]** : marqueur de projet (ex: \_TP2, \_chap5, \_conf2020, etc.)
 
-- **\_ALireUrgent** : à lire d'urgence 
 
-Il s'agit d'avoir des MCU qui servent à décrire et évaluer brièvement le contenu et la valeur d'un document. C'est plus rapide et simple qu'une bibliographie annotée.
 
 
 ## MCU thématiques
 
-Voici la méthode à suivre pour se constituer une liste contrôlées de MCU thématiques (« thésaurus »).
+Voici la méthode à suivre pour se constituer une liste contrôlée de MCU thématiques (« thésaurus »).
 
 ### Création
 
@@ -99,7 +112,7 @@ Exemple :
 | \_game | règles du jeu, mécaniques, jouet, toy, boardgame |
 | \_play | attitude ludique, magic circle, fair play, règles sociales |
 
-2. Prendre 3h pour parcourir votre ensemble de références (c'est plus facile si vous avez déjà un corpus constitué) et constituer un nombre fini de MCU (recommandations : 30 à 50 MCU maximum).
+2. Prendre 3 h pour parcourir votre ensemble de références (c'est plus facile si vous avez déjà un corpus constitué) et constituer un nombre fini de MCU (recommandations : 30 à 50 MCU maximum).
 
 3. Imprimer le tableau. Si possible sur une feuille verso pour mieux avoir tous les MCU et leurs synonymes sur une même page.
 
