@@ -160,7 +160,23 @@ Keller, L. (2013). Encadrer la réingénierie d’un thesaurus : méthode, enj
 
 
 
+## Métadonnées
 
+* Author / Auteur : Pascal Martinolli
+
+* Created / Créé le : 2019
+
+* Most recent version / Dernière version : 1.1
+
+* Original format / format de fichier : MS Publisher 2016 (Proprietary/Propriétaire)
+
+* License / Licence : CC-BY
+
+* Used by / Utilisé par  : Séminaire PLU6058, formation libre Zotero avancé, formation libre Endnote niv.2
+
+* Commments are welcomed at / Commentaires bienvenus : pascal.martinolli [à] umontreal.ca
+
+* Remerciements : Catherine Bernier
 \
 \
 https://github.com/pmartinolli/TM-MyThesaurus
