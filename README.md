@@ -75,7 +75,7 @@ Voici une suggestion de MCU de méthode :
 
 - **\_[projet]** : marqueur de projet (ex: \_TP2, \_chap5, \_conf2020, etc.).
 
-- **\_indexé** : tous les MCU thématiques pertinents ont aussi été ajoutés (voir ci-dessous).
+- **\_indexé** : tous les MCU thématiques pertinents ont été ajoutés (voir ci-dessous). Personnellement, j'utilise seulement \_nettoyé qui, pour moi veut dire \_nettoyé et \_indexé.
 
 
 ## MCU d'évaluation et de description
