@@ -68,7 +68,7 @@ Voici une suggestion de MCU de méthode :
 
 - **\_bibliographie analysée** : la bibliographie a été parcourue et toutes les autres références pertinentes qui s'y trouvent ont été récupérée dans la base de données de références bibliographiques.
 
-- **\_UrgentALire** : pour souligner une vingtaine de références maximum à lire en priorité prochainement.
+- **\_Urgent à lire** : pour souligner une vingtaine de références maximum à lire en priorité prochainement.
 
 ### Optionnels
 
