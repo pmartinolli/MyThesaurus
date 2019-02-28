@@ -6,32 +6,55 @@ MyThesaurus : Design and manage your own personal thesaurus to index and retriev
 
 ## Pourquoi ?
 
-L'étudiant se constitue une base de données de références bibliographiques dans Zotero (ou EndNote). Ce faisant, il créé de la valeur ajoutée par : 
+Les étudiant astucieux se constituent une base de données de références bibliographiques dans Zotero (ou EndNote). Ce faisant, ils créént de la valeur ajoutée par : 
 - la qualité de sa sélection
 - le "nettoyage" des références bibliographiques
 - l'ajout de mots-clés uniques thématiques et de méthode
 
-Nous allons voir comment gérer efficacement ces mots-clés dans des listes contrôlées d'autorité (des thésaurus). 
+Nous allons voir comment gérer efficacement un thésaurus, i.e. une liste contrôlée de **mot-clé unique** (MCU). 
 
 ### Dossier ou mot-clé ?
 
-Comparés aux dossiers (i.e. collections, ou classements, un autre moyen d'organiser les références), les mots-clés (i.e. marqueurs, keywords, tags, descripteurs, sujets) sont souvent plus efficaces :
+L'organisation par rangement dans des dossiers/ collections/ classements est efficace pour un petit nombre de documents OU pour des documents qui ont un trait commun : 
 
-- À partir de 100+ références
+- Premier niveau d'une organisation de base de connaissance ;
 
-- Plus souples (changements, ajouts, suppressions, cumuls, etc.)
+- Facilement accessible car tout est rassemblé au même endroit ;
 
-- Possibilité de croiser plusieurs mots-clés
+- Peu dépendant des outils informatiques ;
 
-- Mieux exportables (les mots-clés sont intégrés dans la référence).
+Limites : peut devenir inefficace si les documents sont très hétérogènes, trop nombreux, ou sur des thèmes différents. Or c'est souvent le cas pour les références bibliographiques des étudiants.
+
+Le niveau supérieur va consister à utiliser une base de données AVEC mots-clés uniques (MCU). On dit aussi marqueurs, keywords, tags, descripteurs, sujets : 
+
+- À partir de 100+ références ;
+
+- Si les références sont hétérogènes ou sur des thèmes variés ;
+
+- Cette base va devenir un espace intermédiaire entre vous et les documents. Il faut bien choisir l'outil pour la gérer car vous devez y faire confiance (contrairement à un dossier où l'on sait que tout est là) ;
+
+- Cette organisation est plus adaptée aux changements, aux ajouts, aux suppressions, etc. ;
+
+- Il est possible de croiser plusieurs mots-clés pour rechercher des documents (c'est difficile de croiser des dossiers) ;
+
+- C'est mieux exportable vers d'autres systèmes. En effet, les mots-clés sont intégrés dans la référence de chaque document (dans un système par dossier, l'organisation est extérieure au document).
+
+### Unique ?
+
+Il faut que chaque mot-clé que vous avez choisi soit le seul mot-clé du thème qui y correspond. Pourquoi ? Cela va permettre de rassembler derrière un seul élément tous les documents qui parle de ce thème.
+
+Il est suggéré d'écrire ses MCU au singulier et en minuscule.
+
 
 ### Pourquoi le caractère \_ devant les mots-clés ?
 
-1. Ça signifie que le **mot-clé unique** (MCU) fait autorité pour décrire ce thème.
+1. Ça signifie que le MCU fait autorité pour décrire ce thème ;
 
-2. Ça distingue vos MCU des mots-clés récupérés parfois automatiquement. Ça les signe en quelque sorte.
+2. Ça distingue vos MCU des mots-clés récupérés parfois automatiquement. Ça les signe en quelque sorte ;
 
-3. Ça fait apparaître les MCU en premier dans les listes et les nuages de mots-clés (dans Zotero).
+3. Ça fait apparaître les MCU en premier dans les listes et les nuages de mots-clés (dans Zotero) ;
+
+4. Ça leur donne le crédit d'appartenir à la liste contrôlée du thésaurus.
 
 ## MCU de méthode
 
@@ -39,20 +62,20 @@ Voici une suggestion de MCU de méthode :
 
 ### Essentiels
 
-- **\_nettoyé** : toutes les informations de la référence sont vérifiées (complet, exact, dans les bons champs)
+- **\_nettoyé** : toutes les informations de la référence sont vérifiées (complet, exact, dans les bons champs).
 
 - **\_lu**
 
 - **\_bibliographie analysée** : la bibliographie a été parcourue et toutes les autres références pertinentes qui s'y trouvent ont été récupérée dans la base de données de références bibliographiques.
 
-- **\_UrgentALire** : pour souligner une vingtaine de références à aller lire en priorité prochainement
+- **\_UrgentALire** : pour souligner une vingtaine de références maximum à lire en priorité prochainement.
 
 ### Optionnels
 
 
-- **\_[projet]** : marqueur de projet (ex: \_TP2, \_chap5, \_conf2020, etc.)
+- **\_[projet]** : marqueur de projet (ex: \_TP2, \_chap5, \_conf2020, etc.).
 
-- **\_indexé** : tous les MCU thématiques pertinents ont aussi été ajoutés (voir ci-dessous)
+- **\_indexé** : tous les MCU thématiques pertinents ont aussi été ajoutés (voir ci-dessous).
 
 
 ## MCU d'évaluation et de description
@@ -141,7 +164,7 @@ Dans le cas d'une base de données partagée entre plusieurs membres d'une même
 
 - Remplacer le MCU de méthode **\_lu** par **\_PM** (où PM sont les initiales de la personne de l'équipe qui a lu le document, ici Pascal Martinolli)
 
-- Désigner un *maître du thésaurus* dans l'équipe. Seul lui peut ajouter des nouveaux MCU à la liste d'autorité (mais les autres peuvent ajouter les mots-clés qu'ils veulent dans les références en attendant que le terme soit validé).
+- Désigner un *maître du thésaurus* dans l'équipe. Seul lui peut ajouter des nouveaux MCU à la liste contrôlée (mais les autres peuvent ajouter les mots-clés qu'ils veulent dans les références en attendant que le terme soit validé).
 
 - À chaque réunion de l'équipe, discuter de l'entrée de MCU candidats dans la liste d'autorité.
 
