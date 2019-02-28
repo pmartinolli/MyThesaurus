@@ -187,7 +187,7 @@ Keller, L. (2013). Encadrer la réingénierie d’un thesaurus : méthode, enj
 
 * Author / Auteur : Pascal Martinolli
 
-* Created / Créé le : 2019
+* Created / Créé le : 2019-02-24
 
 * Most recent version / Dernière version : 1.1
 
@@ -195,7 +195,7 @@ Keller, L. (2013). Encadrer la réingénierie d’un thesaurus : méthode, enj
 
 * License / Licence : CC-BY
 
-* Used by / Utilisé par  : Séminaire PLU6058, formation libre Zotero avancé, formation libre Endnote niv.2
+* Used by / Utilisé par  : Séminaire PLU6058 ; formations libres Zotero, Zotero avancé, Endnote niv. 1 ; Endnote niv.2.
 
 * Commments are welcomed at / Commentaires bienvenus : pascal.martinolli [à] umontreal.ca
 
