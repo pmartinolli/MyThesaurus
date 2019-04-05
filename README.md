@@ -168,6 +168,19 @@ Dans le cas d'une base de données partagée entre plusieurs membres d'une même
 
 - À chaque réunion de l'équipe, discuter de l'entrée de MCU candidats dans la liste d'autorité.
 
+## MCU et logiciels de gestion bibliographique
+
+* Le logiciel Zotero est fortement recommandé pour gérer facilement des MCU (appelés *Marqueurs* ou *Tags*) et un thésaurus.
+
+   * La valeur ajoutée ne sera pas perdue si vous choisissez de changer de logiciel : l'exportation et l'importation vers BibTeX conserve les marqueurs dans un champs *keywords*.
+   
+   * Il est très facile de : de renommer un marqueur, d'attribuer un marqueur a plusieurs documents, supprimer des marqueurs, saisir semi-automatiquement un nom de marqueur existant, croiser plusieurs marqueurs pour filtrer et repérer les références pertinentes.
+   
+   * On peut colorer jusqu'à 9 marqueurs qui sont alors fixés dans le nuage des marqueurs.
+   
+   * Partager son thésaurus : 1) installer le plugin [Zutilo](https://github.com/willsALMANJ/Zutilo) pour avoir l'option copier/coller les marqueurs ; 2) sélectionner toute vos références de votre base de données ; 3) clic-droit, copier tous les marqueurs dans le presse-papier ; 4) coller les marqueurs dans une fichier texte ; 5) supprimer toutes les références qui ne sont pas précédées de \_ ; 6) Sélectionner tout + copier ; 7) créer une référence vide, clic-droit, coller les marqueurs depuis le presse-papier ; 8) cette référence est devenue votre thésaurus, vous pouvez le partager à d'autres.
+
+
 ## Besoin d'aide ?
 
 N'hésitez pas à consulter votre bibliothécaire disciplinaire pour la conception ou le maintien de votre thésaurus. C'est notre métier, c'est notre expertise, et c'est aussi notre plaisir de vous aider avec cet outil particulièrement stimulant.
