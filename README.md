@@ -114,11 +114,13 @@ Voici une suggestion de MCU destinés à évaluer plus finement le contenu ou à
 
 
 
+## MCU thématiques (version simple)
 
+Pour gérer des références avec des MCU thématiques, une solution simple est d'associer un MCU à un grand projet réel ou fictif que vous vous donnez. Par exemple : je vais rédiger un essai sur la gestion des profils électroniques des chercheurs. Toutes les références pouvant illustrer ce projet ont ainsi un seul et même MCU. Notez qu'il faut que le projet soit assez large pour englober plusieurs thèmes. Cette technique fonctionne assez bien car souvent nous retenons les choses en fonction d'un objectif. Bonus : il se peut que votre projet devienne réalité à force de récolter des références de qualité...
 
-## MCU thématiques
+## MCU thématiques (version avancée)
 
-Voici la méthode à suivre pour se constituer une liste contrôlée de MCU thématiques (« thésaurus »).
+Voici la méthode à suivre pour se constituer un « thésaurus », c'est-à-dire une liste contrôlée de MCU thématiques.
 
 ### Création
 
