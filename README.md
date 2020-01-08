@@ -53,7 +53,7 @@ Voici une suggestion de MCU de méthode :
 
 - **\_bibliographie analysée** : la bibliographie a été parcourue et toutes les autres références pertinentes qui s'y trouvent ont été récupérée dans la base de données de références bibliographiques.
 
-- **\_Urgent à lire** : pour souligner une vingtaine de références maximum à lire en priorité prochainement.
+- **\_urgent à lire** : pour souligner une vingtaine de références maximum à lire en priorité prochainement.
 
 ### Optionnels
 
@@ -79,7 +79,7 @@ Voici une suggestion de MCU destinés à évaluer plus finement le contenu ou à
 
 - **\_0.33** : Douteux
 
-- **\_0.66** : Confiance modérée, pourquoi pas ? 
+- **\_0.66** : Confiance mesurée, les critères d'autorité semblent bon
 
 - **\_0.99** : Faits solides basé sur des données probantes
 
