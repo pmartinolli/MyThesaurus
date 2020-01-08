@@ -4,28 +4,13 @@ MyThesaurus : Design and manage your own personal thesaurus to index and retriev
 
 [Affiche en français (PDF)](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/TM-mythesaurus-v1.1.fr.pdf)
 
-## Pourquoi ?
-
-Les étudiant astucieux se constituent une base de données de références bibliographiques dans Zotero (ou EndNote). Ce faisant, ils créént de la valeur ajoutée par : 
-- la qualité de sa sélection
-- le "nettoyage" des références bibliographiques
-- l'ajout de mots-clés uniques thématiques et de méthode
-
 Nous allons voir comment gérer efficacement un thésaurus, i.e. une liste contrôlée de **mot-clé unique** (MCU). 
 
-### Dossier ou mot-clé ?
+### Classement par collection ou indexation par mot-clé ?
 
-L'organisation par rangement dans des dossiers/ collections/ classements est efficace pour un petit nombre de documents OU pour des documents qui ont un trait commun : 
+Le classement dans des dossiers ou des collections est une organisation simple et efficace pour un petit nombre de documents OU pour des documents qui ont un trait commun. C'est souvent le premier niveau d'une organisation de base de connaissance. Les documents sont facilement accessible car ils sont rassemblés au même endroit. Cette organisation est peu dépendante des outils informatiques. Cependant, les classements ont des limites. Ils peuvent devenir inefficace si les documents sont très hétérogènes, ou trop nombreux, ou sur des thèmes différents. 
 
-- Premier niveau d'une organisation de base de connaissance ;
-
-- Facilement accessible car tout est rassemblé au même endroit ;
-
-- Peu dépendant des outils informatiques ;
-
-Limites : peut devenir inefficace si les documents sont très hétérogènes, trop nombreux, ou sur des thèmes différents. Or c'est souvent le cas pour les références bibliographiques des étudiants.
-
-Le niveau supérieur va consister à utiliser une base de données AVEC mots-clés uniques (MCU). On dit aussi marqueurs, keywords, tags, descripteurs, sujets : 
+Il faut alors ajouter un système d'indexation par mots-clés uniques (MCU). On dit aussi marqueurs, keywords, tags, descripteurs, sujets.
 
 - À partir de 100+ références ;
 
