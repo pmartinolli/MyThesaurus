@@ -4,6 +4,8 @@ MyThesaurus : Design and manage your own personal thesaurus to index and retriev
 
 [Affiche en français (PDF)](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/TM-mythesaurus-v1.1.fr.pdf)
 
+[Modèle de thésaurus (ODT)](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/modelethesaurus.odt) - [(PDF)](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/modelethesaurus.pdf)
+
 Nous allons voir comment gérer efficacement un thésaurus, i.e. une liste contrôlée de **mot-clé unique** (MCU). 
 
 ### Classement par collection ou indexation par mot-clé ?
