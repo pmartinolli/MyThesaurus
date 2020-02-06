@@ -203,6 +203,8 @@ Keller, L. (2013). Encadrer la réingénierie d’un thesaurus : méthode, enj
 
 * Présenté à / *Presented at* : Le blog Zotero francophone (à paraître, février 2020)
 
+* Comment le citer / *How to cite it* : Martinolli, Pascal. 2019-2020. *Thésaurus personnel pour collection de références bibliographiques*. Université de Montréal. https://github.com/pmartinolli/TM-MyThesaurus.
+
 * Commments are welcomed at / Commentaires bienvenus : pascal.martinolli [à] umontreal.ca
 
 * Remerciements : Catherine Bernier et Mathieu Thomas pour l'accompagnement des équipes de projet. Danièle Dégez et Sylvie Dalbin, consultantes en thésaurus, dont j’ai eu la chance de suivre les enseignements à l’INTD. 
