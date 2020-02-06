@@ -177,9 +177,11 @@ N'hésitez pas à consulter votre bibliothécaire disciplinaire pour la concepti
 
 ## Bibliographie
 
-Degez, D. (2009). Construire un thesaurus. Archimag, (222), 44‑45.
+Dalbin, Sylvie. 2007. « Thésaurus et informatique documentaires. Partenaires de toujours ? » Documentaliste-Sciences de l’Information 44 (1): 42-55. https://doi.org/10.3917/docsi.441.0042.
 
-Hudon, M. (2009). Guide pratique pour l’élaboration d’un thésaurus documentaire (2ᵉ éd.). Montréal: Éditions ASTED.
+Dégez, Danièle. 2009. « Construire un thesaurus ». Archimag, 44-45.
+
+Hudon, Michèle. 2008. Guide pratique pour l’élaboration d’un thésaurus documentaire. Montréal: Éditions ASTED.
 
 Keller, L. (2013). Encadrer la réingénierie d’un thesaurus : méthode, enjeux et impacts pour l’équipe d’un service de veille et documentation en entreprise (Mémoire INTD-CNAM). Institut national des techniques de la documentation du CNAM, Paris. Consulté à l’adresse https://memsic.ccsd.cnrs.fr/mem_00945542/document
 
@@ -197,11 +199,13 @@ Keller, L. (2013). Encadrer la réingénierie d’un thesaurus : méthode, enj
 
 * License / Licence : CC-BY
 
-* Used by / Utilisé par  : Séminaire PLU6058 ; formations libres Zotero, Zotero avancé, Endnote niv. 1 ; Endnote niv.2.
+* Used by / Utilisé par  : [Séminaire PLU6058 - Rechercher et exploiter la documentation, UdeM](https://bib.umontreal.ca/multidisciplinaire/plu6058) ; [formations libres Zotero et EndNote, UdeM](https://bib.umontreal.ca/formations/).
+
+* Présenté à / *Presented at* : Le blog Zotero francophone (à paraître, février 2020)
 
 * Commments are welcomed at / Commentaires bienvenus : pascal.martinolli [à] umontreal.ca
 
-* Remerciements : Catherine Bernier
+* Remerciements : Catherine Bernier et Mathieu Thomas pour l'accompagnement des équipes de projet. Danièle Dégez et Sylvie Dalbin, consultantes en thésaurus, dont j’ai eu la chance de suivre les enseignements à l’INTD. 
 
 \
 \
