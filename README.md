@@ -10,30 +10,22 @@ Nous allons voir comment gérer efficacement un thésaurus, i.e. une liste contr
 
 ### Classement par collection ou indexation par mot-clé ?
 
-Le classement dans des dossiers ou des collections est une organisation simple et efficace pour un petit nombre de documents OU pour des documents qui ont un trait commun. C'est souvent le premier niveau d'une organisation de base de connaissance. Les documents sont facilement accessible car ils sont rassemblés au même endroit. Cette organisation est peu dépendante des outils informatiques. Cependant, les classements ont des limites. Ils peuvent devenir inefficace si les documents sont très hétérogènes, ou trop nombreux, ou sur des thèmes différents. 
+Le classement dans des dossiers ou des collections est une organisation simple et efficace pour un petit nombre de documents. C'est souvent le premier niveau d'une organisation de base de connaissance. Cependant, les classements ont des limites. Ils peuvent devenir inefficace si les documents sont très hétérogènes, ou trop nombreux, ou sur des thèmes différents. 
 
 Il faut alors ajouter un système d'indexation par mots-clés uniques. On dit aussi marqueurs, keywords, tags, descripteurs, sujets.
 
 - À partir de 300+ références ;
-
 - Si les références sont hétérogènes ou sur des thèmes variés ;
-
 - Cette base va devenir un espace intermédiaire entre vous et les documents. Il faut bien choisir l'outil pour la gérer car vous devez y faire confiance (contrairement à un dossier où l'on sait que tout est là) ;
-
 - Cette organisation est plus adaptée aux changements, aux ajouts, aux suppressions, etc. ;
-
 - Il est possible de croiser plusieurs mots-clés pour rechercher des documents (c'est difficile de croiser des dossiers) ;
-
 - C'est mieux exportable vers d'autres systèmes. En effet, les mots-clés sont intégrés dans la référence de chaque document (dans un système par dossier, l'organisation est extérieure au document).
-
-### Unique ?
 
 Il faut que chaque mot-clé que vous avez choisi soit le seul mot-clé du thème qui y correspond. Pourquoi ? Cela va permettre de rassembler derrière un seul élément tous les documents qui parle de ce thème.
 
-Il est suggéré d'écrire ses MCU au singulier et en minuscule.
 
 
-## Un article complet expliquant comment utiliser un thésaurus avec Zotero
+## Un article complet pour utiliser un thésaurus avec Zotero
 
 [Optimiser l’organisation de sa bibliothèque](https://zotero.hypotheses.org/3298)
 
