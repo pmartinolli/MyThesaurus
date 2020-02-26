@@ -6,7 +6,7 @@ MyThesaurus : Design and manage your own personal thesaurus to index and retriev
 
 [Modèle de thésaurus (ODT)](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/modelethesaurus.odt) - [(PDF)](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/modelethesaurus.pdf)
 
-Nous allons voir comment gérer efficacement un thésaurus, i.e. une liste contrôlée de **mot-clé unique** (MCU). 
+Nous allons voir comment gérer efficacement un thésaurus, i.e. une liste contrôlée de **mot-clé unique**. 
 
 ### Classement par collection ou indexation par mot-clé ?
 
@@ -20,9 +20,6 @@ Il faut alors ajouter un système d'indexation par mots-clés uniques. On dit au
 - Cette organisation est plus adaptée aux changements, aux ajouts, aux suppressions, etc. ;
 - Il est possible de croiser plusieurs mots-clés pour rechercher des documents (c'est difficile de croiser des dossiers) ;
 - C'est mieux exportable vers d'autres systèmes. En effet, les mots-clés sont intégrés dans la référence de chaque document (dans un système par dossier, l'organisation est extérieure au document).
-
-Il faut que chaque mot-clé que vous avez choisi soit le seul mot-clé du thème qui y correspond. Pourquoi ? Cela va permettre de rassembler derrière un seul élément tous les documents qui parle de ce thème.
-
 
 
 ## Un article complet pour utiliser un thésaurus avec Zotero
