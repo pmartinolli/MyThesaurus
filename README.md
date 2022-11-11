@@ -15,20 +15,20 @@ Le classement dans des dossiers ou des collections est une organisation simple e
 ## Quelques astuces
 
 - Pourquoi un thésaurus ?
-   – Pour mieux retrouver ses références bibliographiques.
-   – Pour bien délimiter votre sujet de recherche. 
-   – Pour savoir quel aspect a besoin d'être élaboré, détaillé et représenté par un marqueur unique.
-   – Pour mieux repérer les sujets émergents.
-   – Organisation est plus adaptée aux changements, aux ajouts, aux suppressions, etc. 
-   – C'est mieux exportable vers d'autres systèmes. En effet, les mot-clés/marqueurs sont intégrés dans la référence de chaque document (dans un système par dossier, l'organisation est extérieure au document).
-   – Facilité pour croiser plusieurs mot-clés/marqueurs pour rechercher des documents (plus facile que des dossiers-collections).
+   - Pour mieux retrouver ses références bibliographiques.
+   - Pour bien délimiter votre sujet de recherche. 
+   - Pour savoir quel aspect a besoin d'être élaboré, détaillé et représenté par un marqueur unique.
+   - Pour mieux repérer les sujets émergents.
+   - Organisation est plus adaptée aux changements, aux ajouts, aux suppressions, etc. 
+   - C'est mieux exportable vers d'autres systèmes. En effet, les mot-clés/marqueurs sont intégrés dans la référence de chaque document (dans un système par dossier, l'organisation est extérieure au document).
+   - Facilité pour croiser plusieurs mot-clés/marqueurs pour rechercher des documents (plus facile que des dossiers-collections).
 - Comment ?
-   – En créant une liste de marqueurs uniques, uniformes, contrôlés.
-   – En indexant ses références bibliographiques avec les marqueurs uniques pertinents.
+   - En créant une liste de marqueurs uniques, uniformes, contrôlés.
+   - En indexant ses références bibliographiques avec les marqueurs uniques pertinents.
 - Il y a trois grandes familles de marqueurs : 
-   – Des marqueurs de méthodes de travail (une poignée)
-   – Des marqueurs d'évaluation ou de description (une poignée)
-   – Des marqueurs thématiques (l'essentiel des marqueurs)
+   - Des marqueurs de méthodes de travail (une poignée)
+   - Des marqueurs d'évaluation ou de description (une poignée)
+   - Des marqueurs thématiques (l'essentiel des marqueurs)
 
 ### Marqueurs de méthode de travail : 
 - \_nettoyé : la notice électronique de la référence dans Zotero a été vérifiée, elle peut être citée dans un travail.
@@ -60,8 +60,8 @@ Le classement dans des dossiers ou des collections est une organisation simple e
     - Ils sont signés comme étant vos marqueurs à vous, issus d'une précieuse liste contrôlée.
     - Ils apparaissent en haut des listes.
 - Astuce : faire précéder vos marqueurs temporaires ou de « cuisine interne » (réorganisation, hésitation, archives, etc.) avec le caractère =
-    – Ils sont signés aussi, et ils ne se mélangent pas à votre liste contrôlée de \_marqueurs.
-    – Ils apparaissent en groupe, juste après les \_marqueurs.
+    - Ils sont signés aussi, et ils ne se mélangent pas à votre liste contrôlée de \_marqueurs.
+    - Ils apparaissent en groupe, juste après les \_marqueurs.
 - Astuce : vous pouvez colorer avec 9 couleurs des marqueurs qui seront fixés de manière permanente dans le nuage des marqueurs à droite.
     - Nuage des marqueurs > clic-droit sur un marqueur > Attribuer une couleur.
     - Suggestion de marqueurs à colorer : \_nettoyé, \_publication majeure, \_lu.
