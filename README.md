@@ -6,6 +6,8 @@ MyThesaurus : Design and manage your own personal thesaurus to index and retriev
 
 [Modèle de thésaurus (ODT)](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/modelethesaurus.odt) - [(PDF)](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/modelethesaurus.pdf)
 
+[Exemple de thésaurus à deux niveaux pour le jeu de rôle sur table](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/TTRPG-simple-thesaurus.pdf)
+
 Nous allons voir comment gérer efficacement un thésaurus, i.e. une liste contrôlée de **mot-clé unique**. 
 
 ### Classement par collection ou indexation par mot-clé ?
