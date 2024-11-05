@@ -27,7 +27,7 @@ data = pd.read_csv(csv_file)
 
 
 # After processing all grouped_data paragraphs, add the final paragraph
-final_text = "_[rpgname]_game \n_[countryname]_country"
+final_text = "_[rpgname]_game \n_[countryname]_country\n\ngenerated from csv with https://github.com/pmartinolli/MyThesaurus/blob/master/files/mythesaurus_csv2pdf.py"
 
 
 
