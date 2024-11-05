@@ -15,9 +15,8 @@ _OTHER GAMES,_pbem,play by post; email; forum
 _OTHER GAMES,_pretend play,make-believe; prop theory
 _OTHER GAMES,_storygame,
 _OTHER GAMES,_wargame,
-_OTHER GAMES,_werewolf,mafia
+_OTHER GAMES,_werewolf,mafia; loups-garous de Thiercelieux
 _LEARNING,,
-_LEARNING,_assertiveness,
 _LEARNING,_attitude change,prevention; sensibilization; awareness
 _LEARNING,_benefits of rpg,
 _LEARNING,_classroom rpg,
@@ -27,8 +26,8 @@ _LEARNING,_decision making,decision forecast
 _LEARNING,_motivation,engagement; commitment
 _LEARNING,_flow,
 _LEARNING,_information literacy,information retrieving; information seeking; critical thinking
-_LEARNING,_language learning,
-_LEARNING,_leadership,management; team building
+_LEARNING,_language learning,EFL
+_LEARNING,_leadership,"management, team building, negotiation, diplomacy, debating, convincing, deliberation, assertiveness"
 _LEARNING,_negotiation,diplomacy; debating; convincing; deliberation
 _LEARNING,_oral communication,expression
 _LEARNING,_reading,
@@ -47,13 +46,14 @@ _LEARNING,_teamwork,
 _LEARNING,_writing,
 _HISTORY OF RPG,,
 _HISTORY OF RPG,_braunstein,
+_HISTORY OF RPG,_arneson,
 _HISTORY OF RPG,_gygax,
 _HISTORY OF RPG,_moral panic,
 _HISTORY OF RPG,_osr,
 _HISTORY OF RPG,_proto-cyoa,
-_HISTORY OF RPG,_proto-history of rpg,Braunstein; Arneson
 _HISTORY OF RPG,_the forge,
-_PSYCHOLOGY,,neuroscience
+_PSYCHOLOGY,,
+_PSYCHOLOGY,_neuroscience,
 _PSYCHOLOGY,_autism,
 _PSYCHOLOGY,_bias,
 _PSYCHOLOGY,_cognition,memory; process; logic
@@ -62,10 +62,10 @@ _PSYCHOLOGY,_de-roling,
 _PSYCHOLOGY,_disability,accessibility
 _PSYCHOLOGY,_hypnosis,
 _PSYCHOLOGY,_identity,avatar; character identification; mask; narration de soi; self-narrative
-_PSYCHOLOGY,_mental disorder,depression
-_PSYCHOLOGY,_personality,extravert; introvert; ego development
+_PSYCHOLOGY,_mental disorder,depression; addiction; compulsive behavior
+_PSYCHOLOGY,_personality,extravert; introvert; ego development; openness
 _PSYCHOLOGY,_psychoanalysis,psychodrama; sociodrama
-_PSYCHOLOGY,_therapy,group therapy
+_PSYCHOLOGY,_therapy,group therapy; resilience
 _PSYCHOLOGY,_transformative,pivotal play
 _EMOTIONS,,
 _EMOTIONS,_anxiety,stress
@@ -77,20 +77,20 @@ _EMOTIONS,_embodiment,synesthesia
 _EMOTIONS,_empathy,theory of mind; perspective taking
 _EMOTIONS,_escapism,vies non-vécues
 _EMOTIONS,_fear,horror
-_EMOTIONS,_nostalgia,
+_EMOTIONS,_nostalgia,vintage
 _EMOTIONS,_sex-transgressive,edgework; extreme xp
 _EMOTIONS,_immersion,suspension of disbelief; transportation; flow; re-enchantment; disenchantment
-_EMOTIONS,_well-being,care
+_EMOTIONS,_well-being,care; self-esteem
 _SOCIOLOGY,,
-_SOCIOLOGY,_anthropology,Folklore studies; mythology; patrimoine
+_SOCIOLOGY,_anthropology,folklore studies; mythology; patrimoine
 _SOCIOLOGY,_conspiracy theory,
-_SOCIOLOGY,_minority,exclusion; racism; diversity; colonialism; social justice; decolonial
+_SOCIOLOGY,_minority,exclusion; racism; diversity; colonialism; social justice; decolonial; inclusion
 _SOCIOLOGY,_cultural transmission,culture; evopsy
 _SOCIOLOGY,_expectation,
 _SOCIOLOGY,_family,
 _SOCIOLOGY,_fandom,community
 _SOCIOLOGY,_gender,male; female; feminism; sexism; masculinism; representation
-_SOCIOLOGY,_lgbtq,
+_SOCIOLOGY,_lgbtq,"queer, gay, lesbian, trans"
 _SOCIOLOGY,_religion,theology; spirituality; belief
 _SOCIOLOGY,_refugee,
 _SOCIOLOGY,_ritual,
@@ -103,14 +103,14 @@ _ GAMEPLAY,_group dynamics,interpersonal relations
 _ GAMEPLAY,_playfulness,joy; pleasure; fun
 _ GAMEPLAY,_collaborative,co-creation; intercréativité
 _ GAMEPLAY,_conflict,consensus
-_ GAMEPLAY,_conversation,dialogue; discourse; Ellipse; description; information exchange; rhetoric
-_ GAMEPLAY,_GMing,Game master; adjudication; referee; ruling
+_ GAMEPLAY,_conversation,dialogue; discourse; ellipse; description; information exchange; rhetoric
+_ GAMEPLAY,_GMing,game master; adjudication; referee; ruling
 _ GAMEPLAY,_GMless,
 _ GAMEPLAY,_esthetical play,contemplative; chill; losing control; let it go
 _ GAMEPLAY,_failure,play to lose
 _ GAMEPLAY,_fairness,
 _ GAMEPLAY,_hospitality,hosting; invitation
-_ GAMEPLAY,_power gaming,Gros Bill; power player
+_ GAMEPLAY,_power gaming,gros Bill; power player; munchkin
 _ GAMEPLAY,_metagame,layer of play; framing
 _ GAMEPLAY,_moral play,morality; ethics
 _ GAMEPLAY,_new player,initiation; peer entry
@@ -121,60 +121,59 @@ _ GAMEPLAY,_social contract,
 _ GAMEPLAY,_workshop pre-game,atelier d’échauffement avant le jeu; briefing; pre-teaching
 _ GAMEPLAY,_information gap,uncertainty; transparency; manipulation; hidden information; lie; opacity; transparency; fog of war
 _MEDIA,,communication studies
-_MEDIA,_actual play,Critical role
+_MEDIA,_actual play,critical role 
 _MEDIA,_adaptation,emulation
 _MEDIA,_ai ml llm,artificial intelligence; machine learning; large language model
 _MEDIA,_art,
 _MEDIA,_authorship,
 _MEDIA,_canon,
-_MEDIA,_cease&desist,
-_MEDIA,_copyright,CC; public domain
+_MEDIA,_cease&desist,lawsuit
+_MEDIA,_copyright,creative commons; public domain
 _MEDIA,_censorship,
 _MEDIA,_fanfiction,
-_MEDIA,_cinema,
+_MEDIA,_cinema,"tv, series"
 _MEDIA,_club,game bar; convention
 _MEDIA,_museum,
 _MEDIA,_theater,play for performance
 _MEDIA,_piracy,photocopy
 _MEDIA,_podcast,
 _MEDIA,_prison,
-_MEDIA,_publishing,independent; industry; market
+_MEDIA,_publishing,independent; industry; market; crowdfunding
 _MEDIA,_virtual table,remote play
 _MEDIA,_serial,magazine; fanzine; blogging
 _MEDIA,_social media,
 _MEDIA,_software,
+_MEDIA,_storytelling,story; narrativity; hero's journey
 _MEDIA,_translation,appropriation; orientalism; cultural gap; intercultural  /see sterotype
 _MEDIA,_transmedia,
 _MEDIA,_diy,
-_DESIGN,,Game designer
-_DESIGN,_mechanics,rules; abstract rules; clear rules; combat; resource management; réalisme
-_DESIGN,_agency,choice; dilemma. Game theory; prisoner dilemma; 
+_DESIGN,,game designer
+_DESIGN,_mechanics,rules; abstract rules; clear rules; combat; resource management; realism
+_DESIGN,_agency,choice; dilemma; game theory; prisoner dilemma; 
 _DESIGN,_designing rpg,
 _DESIGN,_character sheet,
 _DESIGN,_character,PC progression; PC creation; PC death
-_DESIGN,_layout,rulebook; pdf; ebook; game material; props; materiality; electronic-ity; photocopy; object  
-_DESIGN,_dungeon crawl,Labyrinth; maze
-_DESIGN,_dice,diceless; randomizer;
+_DESIGN,_layout,rulebook; pdf; ebook; game material; props; materiality; electronic; object  
+_DESIGN,_dungeon crawl,labyrinth; maze
+_DESIGN,_dice,diceless; randomizer; probability
 _DESIGN,_freeform,ruleless
 _DESIGN,_worldbuilding,magic; gods; trap
 _DESIGN,_sandbox,hexcrawl; open table
 _DESIGN,_map,
 _DESIGN,_monster,npc
 _DESIGN,_narrative authority,
-_DESIGN,_pbta,
 _DESIGN,_plot structure,
-_DESIGN,_probability,
 _DESIGN,_procedural storytelling,generator
 _DESIGN,_quest,side quest; goal; objectives; module or scenario or campaign design
-_DESIGN,_rpg theory,
+_DESIGN,_rpg theory,typologies of players; of GMs; of games; etc.
 _DESIGN,_sandbox,
 _DESIGN,_torture,
 _DESIGN,_ux,wearrpg; tools to help the GM/Players
 _LIBRARY,,curation; hoarding; collecting; library instruction
 _LIBRARY,_appendixN,
-_LIBRARY,_citation,Citation practices
+_LIBRARY,_citation,citation practices
 _LIBRARY,_archive,
-_LIBRARY,_text mining/text analysis,web scrapping
+_LIBRARY,_text mining/text analysis,web scrapping; corpus analysis
 _LIBRARY,_data,data management
 [no generic – fields],_neomedievalism,Arthurian
 [no generic – fields],_ecology,
@@ -182,7 +181,7 @@ _LIBRARY,_data,data management
 [no generic – fields],_literature,
 [no generic – fields],_history,heritage
 [no generic – fields],_game studies,
-[no generic – fields],_law studies,court cases
+[no generic – fields],_law studies,court cases /see lawsuits
 [no generic – fields],_linguistics,
 [no generic – fields],_philosophy,
 [no generic – fields],_politics,
@@ -191,25 +190,21 @@ _LIBRARY,_data,data management
 [no generic – fields],_mathematics,statistics
 [no generic – fields],_medecine-nursing,
 [no generic – Topics],_covid19,
-[no generic – Topics],_dnd,
 [no generic – Topics],_lovecraft,
 [no generic – Topics],_tolkien,
-[no generic – Topics],_wod,World of Darkness; vampire;…
-[no generic – Topics],_[country],
 [no generic – Topics],_roleplay,(non ludic)
 [no generic – Topics],_story vs game,
-[no generic – Topics],_storytelling,story; narrativity
-[no generic – Topics],_typology,of players; of GMs; of games; etc.
-[no generic – Topics],_asia,
-[no generic – Population],_elderly,
-[no generic – Population],_student,
-[no generic – Population],_yo1-12,
-[no generic – Population],_yo13-19,
+[no generic – Topics],_elderly,
+[no generic – Topics],_student,
+[no generic – Topics],_yo1-12,
+[no generic – Topics],_yo13-19,
 [no generic – document],_major publication,
 [no generic – document],_theoretical work,
-[no generic – document],_empirical work,
-[no generic – document],_encyclopedia,
-[no generic – document],_assessment,evidence-base _literature review
-[no generic – document],_interview,3rd source; handbook; definition
-[no generic – document],_peer reviewed,measurement; metrics; partie test; survey; user observation
+[no generic – document],_empirical work,"evidence-based, control group, experiment"
+[no generic – document],_encyclopedia,tertiary source; handbook; definition
+[no generic – document],_assessment,measurement; metrics; partie test; survey; user observation
+[no generic – document],_interview,
+[no generic – document],_peer reviewed,
 [no generic – document],_review,compte rendu; critique
+[no generic – document],_non peer-reviewed,
+[no generic – document],_literature review,"systematic review, meta analysis, scoping review "

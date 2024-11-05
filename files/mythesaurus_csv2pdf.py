@@ -27,8 +27,8 @@ data = pd.read_csv(csv_file)
 
 
 # After processing all grouped_data paragraphs, add the final paragraph
-final_text = "_[rpgname]_game \n_[countryname]_country\n\ngenerated from csv with https://github.com/pmartinolli/MyThesaurus/blob/master/files/mythesaurus_csv2pdf.py"
-
+manual_tags = "_[rpgname]_game \n_[countryname]_country"
+reference_text = "<font size=6 color='gray'>generated from csv with https://github.com/pmartinolli/MyThesaurus/blob/master/files/mythesaurus_csv2pdf.py</font>"
 
 
 # Define styles for the PDF content
@@ -118,7 +118,9 @@ for generic_value, group in grouped_data:
     elements.append(Spacer(1, 8))  # Add two line breaks before next block
     
 # Add the final text
-elements.append(Paragraph(final_text, combined_style))
+elements.append(Paragraph(manual_tags, combined_style))
+elements.append(Spacer(1, 8)) 
+elements.append(Paragraph(reference_text, combined_style))
 
 # Build the document with flowing text in columns
 doc.build(elements)
