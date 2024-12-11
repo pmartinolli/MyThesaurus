@@ -2,7 +2,11 @@
 
 *MyThesaurus : Design and manage your own personal thesaurus to index and retrieve information*
 
+## Thesaurus builder CSV->PDF
+
 Exemple de thésaurus à deux niveaux pour le jeu de rôle sur table : [en PDF](https://github.com/pmartinolli/MyThesaurus/blob/master/ThesaurusBuilder/TTRPG_thesaurus.pdf) ou [en CSV](https://github.com/pmartinolli/MyThesaurus/blob/master/ThesaurusBuilder/TTRPG_thesaurus.csv) (avec le [script Python](https://github.com/pmartinolli/MyThesaurus/blob/master/ThesaurusBuilder/mythesaurus_csv2pdf.py) pour transformer le CSV en PDF)
+
+## MarkDown Tag Indexer
 
 Script Python pour indexer automatiquement des fichiers MarkDown avec des tags (dans un coffre Obsidian.md par exemple) : 
 - [MarkdownTagUpdater](https://github.com/pmartinolli/MyThesaurus/blob/master/MarkdownTag/MarkdownTagUpdater.py) pour rechercher des mots-clés dans des fichiers MarkDown et ajouter les #tags correspondants dans l'entête YAML des fichiers.
