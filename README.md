@@ -1,6 +1,6 @@
 # Thésaurus personnel pour gérer sa documentation
 
-MyThesaurus : Design and manage your own personal thesaurus to index and retrieve information
+*MyThesaurus : Design and manage your own personal thesaurus to index and retrieve information*
 
 Exemple de thésaurus à deux niveaux pour le jeu de rôle sur table : [en PDF](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/ThesaurusBuilder/TTRPG_thesaurus.pdf) ou [en CSV](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/ThesaurusBuilder/TTRPG_thesaurus.csv) (avec le [script Python](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/ThesaurusBuilder/mythesaurus_csv2pdf.py) pour transformer le CSV en PDF)
 
