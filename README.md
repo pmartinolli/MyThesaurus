@@ -4,14 +4,16 @@
 
 ## Thesaurus builder CSV->PDF
 
+*Example of a two-levels thesaurus for tabletop role-playing games research publications : [in PDF](https://github.com/pmartinolli/MyThesaurus/blob/master/ThesaurusBuilder/TTRPG_thesaurus.pdf) or [in CSV](https://github.com/pmartinolli/MyThesaurus/blob/master/ThesaurusBuilder/TTRPG_thesaurus.csv) (with the [Python script](https://github.com/pmartinolli/MyThesaurus/blob/master/ThesaurusBuilder/mythesaurus_csv2pdf.py) to turn the CSV into PDF)*
+
 Exemple de thésaurus à deux niveaux pour le jeu de rôle sur table : [en PDF](https://github.com/pmartinolli/MyThesaurus/blob/master/ThesaurusBuilder/TTRPG_thesaurus.pdf) ou [en CSV](https://github.com/pmartinolli/MyThesaurus/blob/master/ThesaurusBuilder/TTRPG_thesaurus.csv) (avec le [script Python](https://github.com/pmartinolli/MyThesaurus/blob/master/ThesaurusBuilder/mythesaurus_csv2pdf.py) pour transformer le CSV en PDF)
 
 ## MarkDown Tag Indexer
 
-Script Python pour indexer automatiquement des fichiers MarkDown avec des tags (dans un coffre Obsidian.md par exemple) : 
-- [MarkdownTagUpdater](https://github.com/pmartinolli/MyThesaurus/blob/master/MarkdownTag/MarkdownTagUpdater.py) pour rechercher des mots-clés dans des fichiers MarkDown et ajouter les #tags correspondants dans l'entête YAML des fichiers.
-- [MarkdownTagHarvester](https://github.com/pmartinolli/MyThesaurus/blob/master/MarkdownTag/MarkdownTagHarvester.py) pour s'aider à se constituer le fichier csv.
-- Un exemple de fichier [csv](https://github.com/pmartinolli/MyThesaurus/blob/master/MarkdownTag/tags.csv)
+Python script to index automatically MarkDown files (an Obsidian.md vault for example) with a CSV of controlled tags : 
+- [MarkdownTagUpdater](https://github.com/pmartinolli/MyThesaurus/blob/master/MarkdownTag/MarkdownTagUpdater.py) : searching keywords and adding corresponding #tags in YAML headers.
+- [MarkdownTagHarvester](https://github.com/pmartinolli/MyThesaurus/blob/master/MarkdownTag/MarkdownTagHarvester.py) : helping building the tags.csv
+- Example of [tags.csv](https://github.com/pmartinolli/MyThesaurus/blob/master/MarkdownTag/tags.csv)
 ![How does it works?](https://github.com/pmartinolli/MyThesaurus/blob/master/MarkdownTag/MarkdownTagUpdater_howto.png)
 
 ## Outils divers 
