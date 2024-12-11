@@ -10,10 +10,10 @@ Exemple de thésaurus à deux niveaux pour le jeu de rôle sur table : [en PDF](
 
 ## MarkDown Tag Indexer
 
-Python script to index automatically MarkDown files (an Obsidian.md vault for example) with a CSV of controlled tags : 
-- [MarkdownTagUpdater](https://github.com/pmartinolli/MyThesaurus/blob/master/MarkdownTag/MarkdownTagUpdater.py) : searching keywords and adding corresponding #tags in YAML headers.
-- [MarkdownTagHarvester](https://github.com/pmartinolli/MyThesaurus/blob/master/MarkdownTag/MarkdownTagHarvester.py) : helping building the tags.csv
-- Example of [tags.csv](https://github.com/pmartinolli/MyThesaurus/blob/master/MarkdownTag/tags.csv)
+*Python script to index automatically MarkDown files (an Obsidian.md vault for example) with a CSV of controlled tags :* 
+- [MarkdownTagUpdater](https://github.com/pmartinolli/MyThesaurus/blob/master/MarkdownTag/MarkdownTagUpdater.py) : *searching keywords and adding corresponding #tags in YAML headers.*
+- [MarkdownTagHarvester](https://github.com/pmartinolli/MyThesaurus/blob/master/MarkdownTag/MarkdownTagHarvester.py) : *helping building the tags.csv*
+- *Example of [tags.csv](https://github.com/pmartinolli/MyThesaurus/blob/master/MarkdownTag/tags.csv)*
 ![How does it works?](https://github.com/pmartinolli/MyThesaurus/blob/master/MarkdownTag/MarkdownTagUpdater_howto.png)
 
 ## Outils divers 
