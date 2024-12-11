@@ -39,7 +39,7 @@ If I ask "thé" :
 
 """
 
-folder_path = "C:/Users\martinop\OneDrive - Universite de Montreal\perso\en_cours\myPython\pyObsidianUpdater"
+folder_path = "your/folder/path/here"
 
 
 
