@@ -1,0 +1,210 @@
+Generic_controlled_vocabulary,Specific_controlled_vocabulary,Aliases
+_TTRPG,,tabletop role-playing game; TRPG; pen and paper RPG
+_LARP,,
+_LARP,_megagame,
+_LARP,_murder party,
+_LARP,_nordic larp,
+_CYOA,,interactive fiction; ldvelh; livre-jeu; gamebook; ergodic
+_OTHER GAMES,,
+_OTHER GAMES,_boardgame,card game
+_OTHER GAMES,_computer rpg,morpg; virtual reality; ARG; alternate reality games
+_OTHER GAMES,_cosplay,
+_OTHER GAMES,_matrix game,
+_OTHER GAMES,_miniature,doll; puppet; toy
+_OTHER GAMES,_pbem,play by post; email; forum
+_OTHER GAMES,_pretend play,make-believe; prop theory
+_OTHER GAMES,_storygame,
+_OTHER GAMES,_wargame,
+_OTHER GAMES,_werewolf,mafia; loups-garous de Thiercelieux
+_LEARNING,,
+_LEARNING,_attitude change,prevention; sensibilization; awareness
+_LEARNING,_benefits of rpg,
+_LEARNING,_classroom rpg,
+_LEARNING,_curriculum,program
+_LEARNING,_debriefing,
+_LEARNING,_decision making,decision forecast
+_LEARNING,_motivation,engagement; commitment
+_LEARNING,_flow,
+_LEARNING,_information literacy,information retrieving; information seeking; critical thinking
+_LEARNING,_language learning,EFL
+_LEARNING,_leadership,"management, team building, negotiation, diplomacy, debating, convincing, deliberation, assertiveness"
+_LEARNING,_negotiation,diplomacy; debating; convincing; deliberation
+_LEARNING,_oral communication,expression
+_LEARNING,_reading,
+_LEARNING,_roleplayification,rpg gamification
+_LEARNING,_rttp,reacting through the past
+_LEARNING,_self-advocacy,
+_LEARNING,_self-determination,
+_LEARNING,_self-efficacy,self-competence
+_LEARNING,_self-reflection,locus of control; meta cognition in general
+_LEARNING,_simulated patient,standardized patient
+_LEARNING,_simulation,realism
+_LEARNING,_soft skills,social skills
+_LEARNING,_task resolution,problem solving
+_LEARNING,_teaching,
+_LEARNING,_teamwork,
+_LEARNING,_writing,
+_HISTORY OF RPG,,
+_HISTORY OF RPG,_braunstein,
+_HISTORY OF RPG,_arneson,
+_HISTORY OF RPG,_gygax,
+_HISTORY OF RPG,_moral panic,
+_HISTORY OF RPG,_osr,
+_HISTORY OF RPG,_proto-cyoa,
+_HISTORY OF RPG,_the forge,
+_PSYCHOLOGY,,
+_PSYCHOLOGY,_neuroscience,
+_PSYCHOLOGY,_autism,
+_PSYCHOLOGY,_bias,
+_PSYCHOLOGY,_cognition,memory; process; logic
+_PSYCHOLOGY,_creativity,inspiration; divergent thinking; imagination; thought experiment
+_PSYCHOLOGY,_de-roling,
+_PSYCHOLOGY,_disability,accessibility; deaf; ableism
+_PSYCHOLOGY,_hypnosis,
+_PSYCHOLOGY,_identity,avatar; character identification; mask; narration de soi; self-narrative
+_PSYCHOLOGY,_mental disorder,depression; addiction; compulsive behavior
+_PSYCHOLOGY,_personality,extravert; introvert; ego development; openness
+_PSYCHOLOGY,_psychoanalysis,psychodrama; sociodrama
+_PSYCHOLOGY,_therapy,group therapy; resilience
+_PSYCHOLOGY,_transformative,pivotal play
+_EMOTIONS,,
+_EMOTIONS,_anxiety,stress; burn-out; pression; pressure
+_EMOTIONS,_belonging,connectedness; loneliness; complicity; friendship; care; spotlight; hope
+_EMOTIONS,_bleed,player-PC relation
+_EMOTIONS,_confidence,trust
+_EMOTIONS,_distantiation,irony; magic circle; liminality; cognitive quarantine
+_EMOTIONS,_embodiment,synesthesia
+_EMOTIONS,_empathy,theory of mind; perspective taking
+_EMOTIONS,_escapism,vies non-vécues
+_EMOTIONS,_fear,horror
+_EMOTIONS,_nostalgia,vintage
+_EMOTIONS,_sex-transgressive,edgework; extreme xp; xp of limits
+_EMOTIONS,_immersion,suspension of disbelief; transportation; flow; re-enchantment; disenchantment
+_EMOTIONS,_well-being,care; self-esteem
+_SOCIOLOGY,,
+_SOCIOLOGY,_anthropology,folklore studies; mythology; patrimoine
+_SOCIOLOGY,_conspiracy theory,
+_SOCIOLOGY,_minority,exclusion; racism; diversity; colonialism; social justice; decolonial; inclusion; diversity
+_SOCIOLOGY,_cultural transmission,culture; evopsy
+_SOCIOLOGY,_expectation,
+_SOCIOLOGY,_family,
+_SOCIOLOGY,_fandom,community
+_SOCIOLOGY,_gender,male; female; feminism; sexism; masculinism; representation
+_SOCIOLOGY,_lgbtq,"queer, gay, lesbian, trans"
+_SOCIOLOGY,_religion,theology; spirituality; belief
+_SOCIOLOGY,_refugee,
+_SOCIOLOGY,_ritual,
+_SOCIOLOGY,_role taking,role clarity
+_SOCIOLOGY,_stereotype,cliché; stigmatisation; depiction / see translation
+_ GAMEPLAY,,dynamic of play
+_ GAMEPLAY,_advice,best practice; recommendation; bonnes pratiques
+_ GAMEPLAY,_improvisation,improv
+_ GAMEPLAY,_group dynamics,interpersonal relations
+_ GAMEPLAY,_playfulness,joy; pleasure; fun
+_ GAMEPLAY,_collaborative,co-creation; intercréativité
+_ GAMEPLAY,_conflict,consensus
+_ GAMEPLAY,_conversation,dialogue; discourse; ellipse; description; information exchange; rhetoric
+_ GAMEPLAY,_GMing,game master; adjudication; referee; ruling
+_ GAMEPLAY,_GMless,
+_ GAMEPLAY,_esthetical play,contemplative; chill; losing control; let it go
+_ GAMEPLAY,_failure,play to lose
+_ GAMEPLAY,_fairness,
+_ GAMEPLAY,_hospitality,hosting; invitation
+_ GAMEPLAY,_power gaming,gros Bill; power player; munchkin
+_ GAMEPLAY,_metagame,layer of play; framing
+_ GAMEPLAY,_moral play,morality; ethics
+_ GAMEPLAY,_new player,initiation; peer entry
+_ GAMEPLAY,_problematic,antisocial; abuse
+_ GAMEPLAY,_reward,point system; XP; incentives; karma; fate
+_ GAMEPLAY,_safe space,insecurity; safe tools; x card
+_ GAMEPLAY,_social contract,
+_ GAMEPLAY,_workshop pre-game,atelier d’échauffement avant le jeu; briefing; pre-teaching
+_ GAMEPLAY,_information gap,uncertainty; transparency; manipulation; hidden information; lie; opacity; transparency; fog of war
+_MEDIA,,communication studies
+_MEDIA,_actual play,critical role 
+_MEDIA,_adaptation,emulation
+_MEDIA,_ai ml llm,artificial intelligence; machine learning; large language model
+_MEDIA,_art,
+_MEDIA,_authorship,
+_MEDIA,_canon,
+_MEDIA,_cease&desist,lawsuit
+_MEDIA,_copyright,creative commons; public domain
+_MEDIA,_censorship,
+_MEDIA,_fanfiction,
+_MEDIA,_cinema,"tv, series"
+_MEDIA,_club,game bar; convention
+_MEDIA,_museum,
+_MEDIA,_theater,play for performance
+_MEDIA,_piracy,photocopy
+_MEDIA,_podcast,
+_MEDIA,_prison,
+_MEDIA,_publishing,independent; industry; market; crowdfunding
+_MEDIA,_virtual table,remote play
+_MEDIA,_serial,magazine; fanzine; blogging
+_MEDIA,_social media,
+_MEDIA,_software,
+_MEDIA,_storytelling,story; narrativity; hero's journey
+_MEDIA,_translation,appropriation; orientalism; cultural gap; intercultural  /see sterotype
+_MEDIA,_transmedia,
+_MEDIA,_diy,
+_DESIGN,,game designer
+_DESIGN,_mechanics,rules; abstract rules; clear rules; combat; resource management; realism
+_DESIGN,_agency,choice; dilemma; game theory; prisoner dilemma; 
+_DESIGN,_designing rpg,
+_DESIGN,_character sheet,
+_DESIGN,_character,PC progression; PC creation; PC death
+_DESIGN,_layout,rulebook; pdf; ebook; game material; props; materiality; electronic; object  
+_DESIGN,_dungeon crawl,labyrinth; maze
+_DESIGN,_dice,diceless; randomizer; probability
+_DESIGN,_freeform,ruleless
+_DESIGN,_worldbuilding,magic; gods; trap
+_DESIGN,_sandbox,hexcrawl; open table
+_DESIGN,_map,
+_DESIGN,_monster,npc
+_DESIGN,_narrative authority,
+_DESIGN,_plot structure,
+_DESIGN,_procedural storytelling,generator
+_DESIGN,_quest,side quest; goal; objectives; module or scenario or campaign design
+_DESIGN,_rpg theory,typologies of players; of GMs; of games; etc.
+_DESIGN,_sandbox,
+_DESIGN,_torture,
+_DESIGN,_ux,wearrpg; tools to help the GM/Players
+_LIBRARY,,curation; hoarding; collecting; library instruction
+_LIBRARY,_appendixN,
+_LIBRARY,_citation,citation practices
+_LIBRARY,_archive,
+_LIBRARY,_text mining/text analysis,web scrapping; corpus analysis
+_LIBRARY,_data,data management
+[no generic – fields],_neomedievalism,Arthurian
+[no generic – fields],_ecology,
+[no generic – fields],_economics,marketing
+[no generic – fields],_literature,
+[no generic – fields],_history,heritage
+[no generic – fields],_game studies,
+[no generic – fields],_law studies,court cases /see lawsuits
+[no generic – fields],_linguistics,
+[no generic – fields],_philosophy,
+[no generic – fields],_politics,
+[no generic – fields],_music,
+[no generic – fields],_stem,science; technology; engineering; IT
+[no generic – fields],_mathematics,statistics
+[no generic – fields],_medecine-nursing,
+[no generic – Topics],_covid19,
+[no generic – Topics],_lovecraft,
+[no generic – Topics],_tolkien,
+[no generic – Topics],_roleplay,(non ludic)
+[no generic – Topics],_story vs game,
+[no generic – Topics],_elderly,
+[no generic – Topics],_student,
+[no generic – Topics],_yo1-12,
+[no generic – Topics],_yo13-19,
+[no generic – document],_major publication,
+[no generic – document],_theoretical work,
+[no generic – document],_empirical work,"evidence-based, control group, experiment"
+[no generic – document],_encyclopedia,tertiary source; handbook; definition
+[no generic – document],_assessment,measurement; metrics; partie test; survey; user observation
+[no generic – document],_interview,
+[no generic – document],_peer reviewed,
+[no generic – document],_review,compte rendu; critique
+[no generic – document],_non peer-reviewed,
+[no generic – document],_literature review,"systematic review, meta analysis, scoping review "

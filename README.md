@@ -2,23 +2,20 @@
 
 MyThesaurus : Design and manage your own personal thesaurus to index and retrieve informations from your reference management software
 
-- [Aide-mémoire (PDF)](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/TM-mythesaurus-v1.1.fr.pdf)
-- [Modèle de thésaurus simple (ODT)](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/modelethesaurus.odt) - [(PDF)](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/modelethesaurus.pdf)
+- [Aide-mémoire (PDF)](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/Affiche/TM-mythesaurus-v1.1.fr.pdf)
+- [Modèle de thésaurus simple (ODT)](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/ModeleSimple/modelethesaurus.odt) - [(PDF)](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/ModeleSimple/modelethesaurus.pdf)
 
 Exemple de thésaurus à deux niveaux pour le jeu de rôle sur table :
-- [En PDF](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/TTRPG_thesaurus.pdf)
-- [en CSV](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/TTRPG_thesaurus.csv)
-- un [programme Python](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/mythesaurus_csv2pdf.py) pour transformer le CSV en PDF 
+- [En PDF](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/ThesaurusBuilder/TTRPG_thesaurus.pdf)
+- [en CSV](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/ThesaurusBuilder/TTRPG_thesaurus.csv)
+- un [programme Python](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/ThesaurusBuilder/mythesaurus_csv2pdf.py) pour transformer le CSV en PDF 
 
 
 
-## Un chapitre de manuel 
+## Un peu de lecture
 
-Pour utiliser et se créer un thésaurus, i.e. une liste contrôlée de **mot-clé unique** : https://pmartinolli.github.io/QMpRD/chapters/thesaurus.html
-
-## Un article pour utiliser un thésaurus avec Zotero
-
-[Optimiser l’organisation de sa bibliothèque](https://zotero.hypotheses.org/3298)
+- Un chapitre de manuel pour utiliser et se créer un thésaurus, i.e. une liste contrôlée de **mot-clé unique** : https://pmartinolli.github.io/QMpRD/chapters/thesaurus.html
+- Un billet de blogue pour utiliser un thésaurus avec Zotero : [Optimiser l’organisation de sa bibliothèque](https://zotero.hypotheses.org/3298)
 
 
 ## Besoin d'aide ?
