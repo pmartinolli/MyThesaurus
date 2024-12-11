@@ -2,8 +2,8 @@
 
 MyThesaurus : Design and manage your own personal thesaurus to index and retrieve informations from your reference management software
 
-- [Aide-mémoire (PDF)](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/Affiche/TM-mythesaurus-v1.1.fr.pdf)
-- [Modèle de thésaurus simple (ODT)](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/ModeleSimple/modelethesaurus.odt) - [(PDF)](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/ModeleSimple/modelethesaurus.pdf)
+- [Aide-mémoire (PDF)](https://github.com/pmartinolli/MyThesaurus/blob/master/Affiche/affiche-mythesaurus-v1.1.fr.pdf)
+- [Modèle de thésaurus simple (ODT)](https://github.com/pmartinolli/MyThesaurus/blob/master/Affiche/affiche-mythesaurus-v1.1.fr.odt) - [(PDF)](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/ModeleSimple/modelethesaurus.pdf)
 
 Exemple de thésaurus à deux niveaux pour le jeu de rôle sur table :
 - [En PDF](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/ThesaurusBuilder/TTRPG_thesaurus.pdf)
