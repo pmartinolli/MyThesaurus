@@ -39,6 +39,9 @@ If I ask "thé" :
 
 """
 
+# Write the path to a copy (!!) of your Obsidian vault 
+# ADVICE : don't run this code directly on your precious current vault
+#          before you see what it can do to it! 
 folder_path = "your/folder/path/here"
 
 
@@ -83,7 +86,7 @@ print("CSV file normalized successfully!")
 
 def normalize_text(text):
     """
-    Normalise une chaîne en supprimant les accents et en la mettant en minuscules.
+    Normalize a string, removing accents and going lower case.
     """
     # Transformer les caractères accentués en leur forme décomposée (ex. é → e + ´)
     normalized = unicodedata.normalize('NFD', text)
