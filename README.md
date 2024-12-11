@@ -12,7 +12,7 @@ Script Python pour indexer automatiquement des fichiers MarkDown avec des tags (
 - [MarkdownTagUpdater](https://github.com/pmartinolli/MyThesaurus/blob/master/MarkdownTag/MarkdownTagUpdater.py) pour rechercher des mots-clés dans des fichiers MarkDown et ajouter les #tags correspondants dans l'entête YAML des fichiers.
 - [MarkdownTagHarvester](https://github.com/pmartinolli/MyThesaurus/blob/master/MarkdownTag/MarkdownTagHarvester.py) pour s'aider à se constituer le fichier csv.
 - Un exemple de fichier [csv](https://github.com/pmartinolli/MyThesaurus/blob/master/MarkdownTag/tags.csv)
-
+![How does it works?](https://github.com/pmartinolli/MyThesaurus/blob/master/MarkdownTag/MarkdownTagUpdater_howto.png)
 
 ## Outils divers 
 
