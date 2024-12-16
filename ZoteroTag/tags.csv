@@ -1,0 +1,659 @@
+tag,alias
+_LARP,_megagame
+_LARP,_murder party
+_LARP,_nordic larp
+_OTHER GAMES,_boardgame
+_OTHER GAMES,_computer rpg
+_OTHER GAMES,_cosplay
+_OTHER GAMES,_matrix game
+_OTHER GAMES,_miniature
+_OTHER GAMES,_pbem
+_OTHER GAMES,_pretend play
+_OTHER GAMES,_storygame
+_OTHER GAMES,_wargame
+_OTHER GAMES,_werewolf
+_LEARNING,_attitude change
+_LEARNING,_benefits of rpg
+_LEARNING,_classroom rpg
+_LEARNING,_curriculum
+_LEARNING,_debriefing
+_LEARNING,_decision making
+_LEARNING,_motivation
+_LEARNING,_flow
+_LEARNING,_information literacy
+_LEARNING,_language learning
+_LEARNING,_leadership
+_LEARNING,_negotiation
+_LEARNING,_oral communication
+_LEARNING,_reading
+_LEARNING,_roleplayification
+_LEARNING,_rttp
+_LEARNING,_self-advocacy
+_LEARNING,_self-determination
+_LEARNING,_self-efficacy
+_LEARNING,_self-reflection
+_LEARNING,_simulated patient
+_LEARNING,_simulation
+_LEARNING,_soft skills
+_LEARNING,_task resolution
+_LEARNING,_teaching
+_LEARNING,_teamwork
+_LEARNING,_writing
+_HISTORY OF RPG,_braunstein
+_HISTORY OF RPG,_arneson
+_HISTORY OF RPG,_gygax
+_HISTORY OF RPG,_moral panic
+_HISTORY OF RPG,_osr
+_HISTORY OF RPG,_proto-cyoa
+_HISTORY OF RPG,_the forge
+_PSYCHOLOGY,_neuroscience
+_PSYCHOLOGY,_autism
+_PSYCHOLOGY,_bias
+_PSYCHOLOGY,_cognition
+_PSYCHOLOGY,_creativity
+_PSYCHOLOGY,_de-roling
+_PSYCHOLOGY,_disability
+_PSYCHOLOGY,_hypnosis
+_PSYCHOLOGY,_identity
+_PSYCHOLOGY,_mental disorder
+_PSYCHOLOGY,_personality
+_PSYCHOLOGY,_psychoanalysis
+_PSYCHOLOGY,_therapy
+_PSYCHOLOGY,_transformative
+_EMOTIONS,_anxiety
+_EMOTIONS,_belonging
+_EMOTIONS,_bleed
+_EMOTIONS,_confidence
+_EMOTIONS,_distantiation
+_EMOTIONS,_embodiment
+_EMOTIONS,_empathy
+_EMOTIONS,_escapism
+_EMOTIONS,_fear
+_EMOTIONS,_nostalgia
+_EMOTIONS,_sex-transgressive
+_EMOTIONS,_immersion
+_EMOTIONS,_well-being
+_SOCIOLOGY,_anthropology
+_SOCIOLOGY,_conspiracy theory
+_SOCIOLOGY,_minority
+_SOCIOLOGY,_cultural transmission
+_SOCIOLOGY,_expectation
+_SOCIOLOGY,_family
+_SOCIOLOGY,_fandom
+_SOCIOLOGY,_gender
+_SOCIOLOGY,_lgbtq
+_SOCIOLOGY,_religion
+_SOCIOLOGY,_refugee
+_SOCIOLOGY,_ritual
+_SOCIOLOGY,_role taking
+_SOCIOLOGY,_stereotype
+_GAMEPLAY,_advice
+_GAMEPLAY,_improvisation
+_GAMEPLAY,_group dynamics
+_GAMEPLAY,_playfulness
+_GAMEPLAY,_collaborative
+_GAMEPLAY,_conflict
+_GAMEPLAY,_conversation
+_GAMEPLAY,_GMing
+_GAMEPLAY,_GMless
+_GAMEPLAY,_esthetical play
+_GAMEPLAY,_failure
+_GAMEPLAY,_fairness
+_GAMEPLAY,_hospitality
+_GAMEPLAY,_power gaming
+_GAMEPLAY,_metagame
+_GAMEPLAY,_moral play
+_GAMEPLAY,_new player
+_GAMEPLAY,_problematic
+_GAMEPLAY,_reward
+_GAMEPLAY,_safe space
+_GAMEPLAY,_social contract
+_GAMEPLAY,_workshop pre-game
+_GAMEPLAY,_information gap
+_MEDIA,_actual play
+_MEDIA,_adaptation
+_MEDIA,_ai ml llm
+_MEDIA,_art
+_MEDIA,_authorship
+_MEDIA,_canon
+_MEDIA,_cease&desist
+_MEDIA,_copyright
+_MEDIA,_censorship
+_MEDIA,_fanfiction
+_MEDIA,_cinema
+_MEDIA,_club
+_MEDIA,_museum
+_MEDIA,_theater
+_MEDIA,_piracy
+_MEDIA,_podcast
+_MEDIA,_prison
+_MEDIA,_publishing
+_MEDIA,_virtual table
+_MEDIA,_serial
+_MEDIA,_social media
+_MEDIA,_software
+_MEDIA,_storytelling
+_MEDIA,_translation
+_MEDIA,_transmedia
+_MEDIA,_diy
+_DESIGN,_mechanics
+_DESIGN,_agency
+_DESIGN,_designing rpg
+_DESIGN,_character sheet
+_DESIGN,_character
+_DESIGN,_layout
+_DESIGN,_dungeon crawl
+_DESIGN,_dice
+_DESIGN,_freeform
+_DESIGN,_worldbuilding
+_DESIGN,_sandbox
+_DESIGN,_map
+_DESIGN,_monster
+_DESIGN,_narrative authority
+_DESIGN,_plot structure
+_DESIGN,_procedural storytelling
+_DESIGN,_quest
+_DESIGN,_rpg theory
+_DESIGN,_sandbox
+_DESIGN,_torture
+_DESIGN,_ux
+_LIBRARY,_appendixN
+_LIBRARY,_citation
+_LIBRARY,_archive
+_LIBRARY,_text mining
+_LIBRARY,_data
+_megagame,megagame
+_murder party,murder party
+_nordic larp,nordic larp
+_boardgame,boardgame
+_computer rpg,computer rpg
+_cosplay,cosplay
+_matrix game,matrix game
+_miniature,miniature
+_pbem,pbem
+_pretend play,pretend play
+_storygame,storygame
+_wargame,wargame
+_werewolf,werewolf
+_attitude change,attitude change
+_benefits of rpg,benefits of rpg
+_classroom rpg,classroom rpg
+_curriculum,curriculum
+_debriefing,debriefing
+_decision making,decision making
+_motivation,motivation
+_flow,flow
+_information literacy,information literacy
+_language learning,language learning
+_leadership,leadership
+_negotiation,negotiation
+_oral communication,oral communication
+_reading,reading
+_roleplayification,roleplayification
+_rttp,rttp
+_self-advocacy,self-advocacy
+_self-determination,self-determination
+_self-efficacy,self-efficacy
+_self-reflection,self-reflection
+_simulated patient,simulated patient
+_simulation,simulation
+_soft skills,soft skills
+_task resolution,task resolution
+_teaching,teaching
+_teamwork,teamwork
+_writing,writing
+_braunstein,braunstein
+_arneson,arneson
+_gygax,gygax
+_moral panic,moral panic
+_osr,osr
+_proto-cyoa,proto-cyoa
+_the forge,the forge
+_neuroscience,neuroscience
+_autism,autism
+_bias,bias
+_cognition,cognition
+_creativity,creativity
+_de-roling,de-roling
+_disability,disability
+_hypnosis,hypnosis
+_identity,identity
+_mental disorder,mental disorder
+_personality,personality
+_psychoanalysis,psychoanalysis
+_therapy,therapy
+_transformative,transformative
+_anxiety,anxiety
+_belonging,belonging
+_bleed,bleed
+_confidence,confidence
+_distantiation,distantiation
+_embodiment,embodiment
+_empathy,empathy
+_escapism,escapism
+_fear,fear
+_nostalgia,nostalgia
+_sex-transgressive,sex-transgressive
+_immersion,immersion
+_well-being,well-being
+_anthropology,anthropology
+_conspiracy theory,conspiracy theory
+_minority,minority
+_cultural transmission,cultural transmission
+_expectation,expectation
+_family,family
+_fandom,fandom
+_gender,gender
+_lgbtq,lgbtq
+_religion,religion
+_refugee,refugee
+_ritual,ritual
+_role taking,role taking
+_stereotype,stereotype
+_advice,advice
+_improvisation,improvisation
+_group dynamics,group dynamics
+_playfulness,playfulness
+_collaborative,collaborative
+_conflict,conflict
+_conversation,conversation
+_GMing,GMing
+_GMless,GMless
+_esthetical play,esthetical play
+_failure,failure
+_fairness,fairness
+_hospitality,hospitality
+_power gaming,power gaming
+_metagame,metagame
+_moral play,moral play
+_new player,new player
+_problematic,problematic
+_reward,reward
+_safe space,safe space
+_social contract,social contract
+_workshop pre-game,workshop pre-game
+_information gap,information gap
+_actual play,actual play
+_adaptation,adaptation
+_ai ml llm,ai ml llm
+_art,art
+_authorship,authorship
+_canon,canon
+_cease&desist,cease&desist
+_copyright,copyright
+_censorship,censorship
+_fanfiction,fanfiction
+_cinema,cinema
+_club,club
+_museum,museum
+_theater,theater
+_piracy,piracy
+_podcast,podcast
+_prison,prison
+_publishing,publishing
+_virtual table,virtual table
+_serial,serial
+_social media,social media
+_software,software
+_storytelling,storytelling
+_translation,translation
+_transmedia,transmedia
+_diy,diy
+_mechanics,mechanics
+_agency,agency
+_designing rpg,designing rpg
+_character sheet,character sheet
+_character,character
+_layout,layout
+_dungeon crawl,dungeon crawl
+_dice,dice
+_freeform,freeform
+_worldbuilding,worldbuilding
+_sandbox,sandbox
+_map,map
+_monster,monster
+_narrative authority,narrative authority
+_plot structure,plot structure
+_procedural storytelling,procedural storytelling
+_quest,quest
+_rpg theory,rpg theory
+_sandbox,sandbox
+_torture,torture
+_ux,ux
+_appendixN,appendixN
+_citation,citation
+_archive,archive
+_text mining,text mining
+_data,data
+_neomedievalism,neomedievalism
+_ecology,ecology
+_economics,economics
+_literature,literature
+_history,history
+_game studies,game studies
+_law studies,law studies
+_linguistics,linguistics
+_philosophy,philosophy
+_politics,politics
+_music,music
+_stem,stem
+_mathematics,mathematics
+_medecine-nursing,medecine-nursing
+_covid19,covid19
+_lovecraft,lovecraft
+_tolkien,tolkien
+_roleplay,roleplay
+_story vs game,story vs game
+_elderly,elderly
+_student,student
+_yo1-12,yo1-12
+_yo13-19,yo13-19
+_major publication,major publication
+_theoretical work,theoretical work
+_empirical work,empirical work
+_encyclopedia,encyclopedia
+_assessment,assessment
+_interview,interview
+_peer reviewed,peer reviewed
+_review,review
+_non peer-reviewed,non peer-reviewed
+_literature review,literature review
+_boardgame,card game
+_computer rpg,morpg
+_computer rpg,virtual reality
+_computer rpg,ARG
+_computer rpg,alternate reality games
+_miniature,doll
+_miniature,puppet
+_miniature,toy
+_pbem,play by post
+_pbem,email
+_pbem,forum
+_pretend play,make-believe
+_pretend play,prop theory
+_werewolf,mafia
+_werewolf,loups-garous de Thiercelieux
+_attitude change,prevention
+_attitude change,sensibilization
+_attitude change,awareness
+_curriculum,program
+_decision making,decision forecast
+_motivation,engagement
+_motivation,commitment
+_information literacy,information retrieving
+_information literacy,information seeking
+_information literacy,critical thinking
+_language learning,EFL
+_leadership,management
+_leadership,team building
+_leadership,negotiation
+_leadership,diplomacy
+_leadership,debating
+_leadership,convincing
+_leadership,deliberation
+_leadership,assertiveness
+_negotiation,diplomacy
+_negotiation,debating
+_negotiation,convincing
+_negotiation,deliberation
+_oral communication,expression
+_roleplayification,rpg gamification
+_rttp,reacting through the past
+_self-efficacy,self-competence
+_self-reflection,locus of control
+_self-reflection,meta cognition in general
+_simulated patient,standardized patient
+_simulation,realism
+_soft skills,social skills
+_task resolution,problem solving
+_cognition,memory
+_cognition,process
+_cognition,logic
+_creativity,inspiration
+_creativity,divergent thinking
+_creativity,imagination
+_creativity,thought experiment
+_disability,accessibility
+_disability,deaf
+_disability,ableism
+_identity,avatar
+_identity,character identification
+_identity,mask
+_identity,narration de soi
+_identity,self-narrative
+_mental disorder,depression
+_mental disorder,addiction
+_mental disorder,compulsive behavior
+_personality,extravert
+_personality,introvert
+_personality,ego development
+_personality,openness
+_psychoanalysis,psychodrama
+_psychoanalysis,sociodrama
+_therapy,group therapy
+_therapy,resilience
+_transformative,pivotal play
+_anxiety,stress
+_anxiety,burn-out
+_anxiety,pression
+_anxiety,pressure
+_belonging,connectedness
+_belonging,loneliness
+_belonging,complicity
+_belonging,friendship
+_belonging,care
+_belonging,spotlight
+_belonging,hope
+_bleed,player-PC relation
+_confidence,trust
+_distantiation,irony
+_distantiation,magic circle
+_distantiation,liminality
+_distantiation,cognitive quarantine
+_embodiment,synesthesia
+_empathy,theory of mind
+_empathy,perspective taking
+_escapism,vies non-vécues
+_fear,horror
+_nostalgia,vintage
+_sex-transgressive,edgework
+_sex-transgressive,extreme xp
+_sex-transgressive,xp of limits
+_immersion,suspension of disbelief
+_immersion,transportation
+_immersion,flow
+_immersion,re-enchantment
+_immersion,disenchantment
+_well-being,care
+_well-being,self-esteem
+_anthropology,folklore studies
+_anthropology,mythology
+_anthropology,patrimoine
+_minority,exclusion
+_minority,racism
+_minority,diversity
+_minority,colonialism
+_minority,social justice
+_minority,decolonial
+_minority,inclusion
+_minority,diversity
+_cultural transmission,culture
+_cultural transmission,evopsy
+_fandom,community
+_gender,male
+_gender,female
+_gender,feminism
+_gender,sexism
+_gender,masculinism
+_gender,representation
+_lgbtq,queer
+_lgbtq,gay
+_lgbtq,lesbian
+_lgbtq,trans
+_religion,theology
+_religion,spirituality
+_religion,belief
+_role taking,role clarity
+_stereotype,cliché
+_stereotype,stigmatisation
+_stereotype,depiction 
+_advice,best practice
+_advice,recommendation
+_advice,bonnes pratiques
+_improvisation,improv
+_group dynamics,interpersonal relations
+_playfulness,joy
+_playfulness,pleasure
+_playfulness,fun
+_collaborative,co-creation
+_collaborative,intercréativité
+_conflict,consensus
+_conversation,dialogue
+_conversation,discourse
+_conversation,ellipse
+_conversation,description
+_conversation,information exchange
+_conversation,rhetoric
+_GMing,game master
+_GMing,adjudication
+_GMing,referee
+_GMing,ruling
+_esthetical play,contemplative
+_esthetical play,chill
+_esthetical play,losing control
+_esthetical play,let it go
+_failure,play to lose
+_hospitality,hosting
+_hospitality,invitation
+_power gaming,gros Bill
+_power gaming,power player
+_power gaming,munchkin
+_metagame,layer of play
+_metagame,framing
+_moral play,morality
+_moral play,ethics
+_new player,initiation
+_new player,peer entry
+_problematic,antisocial
+_problematic,abuse
+_reward,point system
+_reward,XP
+_reward,incentives
+_reward,karma
+_reward,fate
+_safe space,insecurity
+_safe space,safe tools
+_safe space,x card
+_workshop pre-game,atelier d’échauffement avant le jeu
+_workshop pre-game,briefing
+_workshop pre-game,pre-teaching
+_information gap,uncertainty
+_information gap,transparency
+_information gap,manipulation
+_information gap,hidden information
+_information gap,lie
+_information gap,opacity
+_information gap,transparency
+_information gap,fog of war
+_actual play,critical role
+_adaptation,emulation
+_ai ml llm,artificial intelligence
+_ai ml llm,machine learning
+_ai ml llm,large language model
+_cease&desist,lawsuit
+_copyright,creative commons
+_copyright,public domain
+_cinema,tv
+_cinema,series
+_club,game bar
+_club,convention
+_theater,play for performance
+_piracy,photocopy
+_publishing,independent
+_publishing,industry
+_publishing,market
+_publishing,crowdfunding
+_virtual table,remote play
+_serial,magazine
+_serial,fanzine
+_serial,blogging
+_storytelling,story
+_storytelling,narrativity
+_storytelling,hero's journey
+_translation,appropriation
+_translation,orientalism
+_translation,cultural gap
+_translation,intercultural  
+_mechanics,rules
+_mechanics,abstract rules
+_mechanics,clear rules
+_mechanics,combat
+_mechanics,resource management
+_mechanics,realism
+_agency,choice
+_agency,dilemma
+_agency,game theory
+_agency,prisoner dilemma
+_character,PC progression
+_character,PC creation
+_character,PC death
+_layout,rulebook
+_layout,pdf
+_layout,ebook
+_layout,game material
+_layout,props
+_layout,materiality
+_layout,electronic
+_layout,object
+_dungeon crawl,labyrinth
+_dungeon crawl,maze
+_dice,diceless
+_dice,randomizer
+_dice,probability
+_freeform,ruleless
+_worldbuilding,magic
+_worldbuilding,gods
+_worldbuilding,trap
+_sandbox,hexcrawl
+_sandbox,open table
+_monster,npc
+_procedural storytelling,generator
+_quest,side quest
+_quest,goal
+_quest,objectives
+_quest,module or scenario or campaign design
+_rpg theory,typologies of players
+_rpg theory,of GMs
+_rpg theory,of games
+_rpg theory,etc.
+_ux,wearrpg
+_ux,tools to help the GM
+_citation,citation practices
+_text mining,web scrapping
+_text mining,corpus analysis
+_data,data management
+_neomedievalism,Arthurian
+_economics,marketing
+_history,heritage
+_law studies,court cases 
+_stem,science
+_stem,technology
+_stem,engineering
+_stem,IT
+_mathematics,statistics
+_empirical work,evidence-based
+_empirical work,control group
+_empirical work,experiment
+_encyclopedia,tertiary source
+_encyclopedia,handbook
+_encyclopedia,definition
+_assessment,measurement
+_assessment,metrics
+_assessment,partie test
+_assessment,survey
+_assessment,user observation
+_review,compte rendu
+_review,critique
+_literature review,systematic review
+_literature review,meta analysis
+_literature review,scoping review
