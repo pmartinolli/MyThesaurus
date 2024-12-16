@@ -19,7 +19,7 @@ Exemple de thésaurus à deux niveaux pour le jeu de rôle sur table : [en PDF](
 ## Zotero Tag Indexer
 
 [ZoteroRDF_retag](https://github.com/pmartinolli/MyThesaurus/blob/master/ZoteroTag): Script Python pour indexer automatiquement des exports de bibliothèques Zotero au format RDF (Bibliontology RDF et Zotero RDF) avec un thésaurus en deux colonnes sous forme de CSV (voir plus haut). 
-![How does it works?](https://github.com/pmartinolli/MyThesaurus/blob/master/MarkdownTag/ZoteroTagUpdate_howto.png)
+![How does it works?](https://github.com/pmartinolli/MyThesaurus/blob/master/ZoteroTag/ZoteroTagUpdate_howto.png)
 
 
 ## Outils divers 
