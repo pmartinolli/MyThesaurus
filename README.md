@@ -6,7 +6,7 @@
 
 Exemple de thésaurus à deux niveaux pour le jeu de rôle sur table : [en PDF](https://github.com/pmartinolli/MyThesaurus/blob/master/ThesaurusBuilder/TTRPG_thesaurus.pdf) ou [en CSV](https://github.com/pmartinolli/MyThesaurus/blob/master/ThesaurusBuilder/TTRPG_thesaurus.csv) : 
 - script Python pour [transformer le CSV en PDF](https://github.com/pmartinolli/MyThesaurus/blob/master/ThesaurusBuilder/mythesaurus_csv2pdf.py) 
-- script Python pour [transformer le CSV en CSV à deux colonnes](https://github.com/pmartinolli/MyThesaurus/blob/master/ThesaurusBuilder/mythesaurus_csv2pdf.py) (pour les deux programmes ci-dessous par exemple)
+- script Python pour [transformer le CSV en deux colonnes](https://github.com/pmartinolli/MyThesaurus/blob/master/ThesaurusBuilder/mythesaurus_csv2pdf.py) (pour les deux programmes ci-dessous par exemple)
 
 ## MarkDown Tag Indexer
 
@@ -19,20 +19,6 @@ Exemple de thésaurus à deux niveaux pour le jeu de rôle sur table : [en PDF](
 ## Zotero Tag Indexer
 
 [ZoteroRDF_retag](https://github.com/pmartinolli/MyThesaurus/blob/master/ZoteroTag): Script Python pour indexer automatiquement des exports de bibliothèques Zotero au format RDF (Bibliontology RDF et Zotero RDF) avec un thésaurus en deux colonnes sous forme de CSV (voir plus haut). 
-
-
-## MarkDown Tag Indexer
-
-*Python script to index automatically MarkDown files (an Obsidian.md vault for example) with a CSV of controlled tags :* 
-- [MarkdownTagUpdater](https://github.com/pmartinolli/MyThesaurus/blob/master/MarkdownTag/MarkdownTagUpdater.py) : *searching keywords and adding corresponding #tags in YAML headers.*
-- [MarkdownTagHarvester](https://github.com/pmartinolli/MyThesaurus/blob/master/MarkdownTag/MarkdownTagHarvester.py) : *helping building the tags.csv*
-- *Example of [tags.csv](https://github.com/pmartinolli/MyThesaurus/blob/master/MarkdownTag/tags.csv)*
-![How does it works?](https://github.com/pmartinolli/MyThesaurus/blob/master/MarkdownTag/MarkdownTagUpdater_howto.png)
-
-## Zotero Tag Indexer
-
-[ZoteroRDF_retag](https://github.com/pmartinolli/MyThesaurus/blob/master/ZoteroTag): Script Python pour indexer automatiquement des exports de bibliothèques Zotero au format RDF (Bibliontology RDF et Zotero RDF) avec un thésaurus en deux colonnes sous forme de CSV (voir plus haut). 
-
 
 
 
