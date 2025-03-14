@@ -12,7 +12,7 @@ Quelques méthodes analogiques (pas de programmation) pour travailler avec un th
 - Un [aide-mémoire (PDF)](https://github.com/pmartinolli/MyThesaurus/blob/master/Affiche/affiche-mythesaurus-v1.1.fr.pdf) sous la forme d'une affichette, à utiliser en formation avec quelques bonnes pratiques de création de mots-clés contrôlés.
 - Un billet de blogue pour utiliser un thésaurus avec les marqueurs de Zotero : [Optimiser l’organisation de sa bibliothèque](https://zotero.hypotheses.org/3298).
 - Un exemple de thésaurus [en PDF](https://github.com/pmartinolli/MyThesaurus/blob/master/ThesaurusBuilder/TTRPG_thesaurus.pdf).
-- Un modèle de thésaurus simple en tableau [(PDF)](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/ModeleSimple/modelethesaurus.pdf) ([ODT](https://github.com/pmartinolli/MyThesaurus/blob/master/Affiche/ModeleSimple/modelethesaurus.odt)).
+- Un modèle de thésaurus simple en tableau [(PDF)](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/ModeleSimple/modelethesaurus.pdf) ([ODT](https://github.com/pmartinolli/MyThesaurus/blob/master/ModeleSimple/modelethesaurus.odt)).
 
 
 ## *Thesaurus builder CSV->PDF*
