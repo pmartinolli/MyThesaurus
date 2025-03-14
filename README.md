@@ -4,6 +4,17 @@
 
 Ce dépôt recense plusieurs petits projets liés à la gestion d'un thésaurus personnel pour un projet de recherche (création, maintien, indexation automatique, principes généraux, etc.).
 
+## Introduction au thésaurus 
+
+Quelques méthodes analogiques (pas de programmation) pour travailler avec un thésaurus : 
+
+- Un chapitre détaillé pour utiliser et se [créer un thésaurus](https://pmartinolli.github.io/QMpRD/chapters/thesaurus.html)
+- Un [aide-mémoire (PDF)](https://github.com/pmartinolli/MyThesaurus/blob/master/Affiche/affiche-mythesaurus-v1.1.fr.pdf) sous la forme d'une affichette, à utiliser en formation avec quelques bonnes pratiques de création de mots-clés contrôlés.
+- Un billet de blogue pour utiliser un thésaurus avec les marqueurs de Zotero : [Optimiser l’organisation de sa bibliothèque](https://zotero.hypotheses.org/3298).
+- Un exemple de thésaurus [en PDF](https://github.com/pmartinolli/MyThesaurus/blob/master/ThesaurusBuilder/TTRPG_thesaurus.pdf).
+- Un modèle de thésaurus simple en tableau [(PDF)](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/ModeleSimple/modelethesaurus.pdf) ([ODT](https://github.com/pmartinolli/MyThesaurus/blob/master/Affiche/ModeleSimple/modelethesaurus.odt)).
+
+
 ## *Thesaurus builder CSV->PDF*
 
 Cet outil en Python prend un thésaurus rédigé sous la forme d'un tableau CSV (avec colonnes pertinentes) et il le transforme dans un joli fichier PDF facile à consulter. En effet, comme il est en une page (pour un thésaurus de taille raisonnable), il est facilement lisible, plastifiable ou collable comme couverture d'un cahier de laboratoire par exemple. 
@@ -42,14 +53,8 @@ Cet outil en Python permet d'indexer automatiquement des exports de bibliothèqu
 
 ![How does it works?](https://github.com/pmartinolli/MyThesaurus/blob/master/ZoteroTag/ZoteroTagUpdate_howto.png)
 
-## Outils divers 
-
-Quelques méthodes analogiques (pas de programmation) pour travailler avec un thésaurus : 
-
-- Un chapitre détaillé pour utiliser et se [créer un thésaurus](https://pmartinolli.github.io/QMpRD/chapters/thesaurus.html)
-- Un [aide-mémoire (PDF)](https://github.com/pmartinolli/MyThesaurus/blob/master/Affiche/affiche-mythesaurus-v1.1.fr.pdf) sous la forme d'une affichette, à utiliser en formation avec quelques bonnes pratiques de création de mots-clés contrôlés.
-- Un billet de blogue pour utiliser un thésaurus avec les marqueurs de Zotero : [Optimiser l’organisation de sa bibliothèque](https://zotero.hypotheses.org/3298)
-- Un modèle de thésaurus simple en tableau [(PDF)](https://github.com/pmartinolli/TM-MyThesaurus/blob/master/files/ModeleSimple/modelethesaurus.pdf) ([ODT](https://github.com/pmartinolli/MyThesaurus/blob/master/Affiche/ModeleSimple/modelethesaurus.odt))
+\
+\
 
 ## Besoin d'aide ?
 
