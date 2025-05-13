@@ -2,7 +2,7 @@ Generic_controlled_vocabulary,Specific_controlled_vocabulary,Aliases
 _TTRPG,,tabletop role-playing game; TRPG; pen and paper RPG
 _LARP,,
 _LARP,_megagame,
-_LARP,_murder party,
+_LARP,_murder party,_jubensha
 _LARP,_nordic larp,
 _CYOA,,interactive fiction; ldvelh; livre-jeu; gamebook; ergodic
 _OTHER GAMES,,
@@ -62,15 +62,15 @@ _PSYCHOLOGY,_de-roling,
 _PSYCHOLOGY,_disability,accessibility; deaf; ableism
 _PSYCHOLOGY,_hypnosis,
 _PSYCHOLOGY,_identity,avatar; character identification; mask; narration de soi; self-narrative
-_PSYCHOLOGY,_mental disorder,depression; addiction; compulsive behavior
+_PSYCHOLOGY,_mental disorder,depression; addiction; compulsive behavior; gambling
 _PSYCHOLOGY,_personality,extravert; introvert; ego development; openness
 _PSYCHOLOGY,_psychoanalysis,psychodrama; sociodrama
 _PSYCHOLOGY,_therapy,group therapy; resilience
 _PSYCHOLOGY,_transformative,pivotal play
 _EMOTIONS,,
 _EMOTIONS,_anxiety,stress; burn-out; pression; pressure
-_EMOTIONS,_belonging,connectedness; loneliness; complicity; friendship; care; spotlight; hope
-_EMOTIONS,_bleed,player-PC relation
+_EMOTIONS,_belonging,connectedness; loneliness; complicity; friendship; care; spotlight; hope; acknowledgement; recognition
+_EMOTIONS,_bleed,player-PC relationship
 _EMOTIONS,_confidence,trust
 _EMOTIONS,_distantiation,irony; magic circle; liminality; cognitive quarantine
 _EMOTIONS,_embodiment,synesthesia
@@ -84,7 +84,7 @@ _EMOTIONS,_well-being,care; self-esteem
 _SOCIOLOGY,,
 _SOCIOLOGY,_anthropology,folklore studies; mythology; patrimoine
 _SOCIOLOGY,_conspiracy theory,
-_SOCIOLOGY,_minority,exclusion; racism; diversity; colonialism; social justice; decolonial; inclusion; diversity
+_SOCIOLOGY,_minority,exclusion; racism; diversity; colonialism; social justice; decolonial; inclusion; diversity; inequality
 _SOCIOLOGY,_cultural transmission,culture; evopsy
 _SOCIOLOGY,_expectation,
 _SOCIOLOGY,_family,
@@ -92,11 +92,11 @@ _SOCIOLOGY,_fandom,community
 _SOCIOLOGY,_gender,male; female; feminism; sexism; masculinism; representation
 _SOCIOLOGY,_lgbtq,queer; gay; lesbian; trans
 _SOCIOLOGY,_religion,theology; spirituality; belief
-_SOCIOLOGY,_refugee,
+_SOCIOLOGY,_refugee,migrant; immigrant; migration; alien; stranger
 _SOCIOLOGY,_ritual,
 _SOCIOLOGY,_role taking,role clarity
 _SOCIOLOGY,_stereotype,cliché; stigmatisation; depiction / see translation
-_GAMEPLAY,,dynamic of play
+_GAMEPLAY,,dynamic of play; emergence
 _GAMEPLAY,_advice,best practice; recommendation; bonnes pratiques
 _GAMEPLAY,_improvisation,improv
 _GAMEPLAY,_group dynamics,interpersonal relations
@@ -105,7 +105,7 @@ _GAMEPLAY,_collaborative,co-creation; intercréativité
 _GAMEPLAY,_conflict,consensus
 _GAMEPLAY,_conversation,dialogue; discourse; ellipse; description; information exchange; rhetoric
 _GAMEPLAY,_GMing,game master; adjudication; referee; ruling
-_GAMEPLAY,_GMless,
+_GAMEPLAY,_GMless,solo RPG (cf. _CYOA)
 _GAMEPLAY,_esthetical play,contemplative; chill; losing control; let it go
 _GAMEPLAY,_failure,play to lose
 _GAMEPLAY,_fairness,
@@ -115,7 +115,7 @@ _GAMEPLAY,_metagame,layer of play; framing
 _GAMEPLAY,_moral play,morality; ethics
 _GAMEPLAY,_new player,initiation; peer entry
 _GAMEPLAY,_problematic,antisocial; abuse
-_GAMEPLAY,_reward,point system; XP; incentives; karma; fate
+_GAMEPLAY,_reward,point system; XP; incentives; karma; fate; loot; loot box (cf. gambling-mental disorder)
 _GAMEPLAY,_safe space,insecurity; safe tools; x card
 _GAMEPLAY,_social contract,
 _GAMEPLAY,_workshop pre-game,atelier d’échauffement avant le jeu; briefing; pre-teaching
@@ -123,7 +123,7 @@ _GAMEPLAY,_information gap,uncertainty; transparency; manipulation; hidden infor
 _MEDIA,,communication studies
 _MEDIA,_actual play,critical role 
 _MEDIA,_adaptation,emulation
-_MEDIA,_ai ml llm,artificial intelligence; machine learning; large language model
+_MEDIA,_ai ml llm,artificial intelligence; machine learning; large language model; generative ai
 _MEDIA,_art,
 _MEDIA,_authorship,
 _MEDIA,_canon,
@@ -165,8 +165,7 @@ _DESIGN,_narrative authority,
 _DESIGN,_plot structure,
 _DESIGN,_procedural storytelling,generator
 _DESIGN,_quest,side quest; goal; objectives; module or scenario or campaign design
-_DESIGN,_rpg theory,typologies of players; of GMs; of games; etc.
-_DESIGN,_sandbox,
+_DESIGN,_rpg theory,typologies of players; of GMs; of games; etc.; taxonomy
 _DESIGN,_torture,
 _DESIGN,_ux,wearrpg; tools to help the GM/Players
 _LIBRARY,,curation; hoarding; collecting; library instruction
