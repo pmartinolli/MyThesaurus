@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TTRPG Thesaurus Search</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&family=Syne:wght@400;600;800&display=swap');
+
+  :root {
+    --bg:        #0d0f12;
+    --surface:   #161a1f;
+    --border:    #252c35;
+    --accent:    #e8c547;
+    --accent2:   #4fc3b8;
+    --text:      #d4dde8;
+    --muted:     #5a6472;
+    --match-bg:  #1e2630;
+    --highlight: rgba(232,197,71,0.22);
+    --radius:    6px;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Mono', monospace;
+    font-size: 13.5px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* ── NOISE OVERLAY ── */
+  body::before {
+    content: '';
+    position: fixed; inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  header {
+    width: 100%;
+    max-width: 860px;
+    padding: 52px 24px 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  .eyebrow {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: clamp(26px, 5vw, 44px);
+    line-height: 1.05;
+    color: #fff;
+    letter-spacing: -0.02em;
+  }
+
+  h1 span {
+    color: var(--accent);
+  }
+
+  .subtitle {
+    margin-top: 10px;
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.6;
+  }
+
+  /* ── SEARCH BAR ── */
+  .search-wrap {
+    width: 100%;
+    max-width: 860px;
+    padding: 28px 24px 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  .search-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .search-icon {
+    position: absolute;
+    left: 16px;
+    color: var(--muted);
+    pointer-events: none;
+    font-size: 15px;
+  }
+
+  #searchInput {
+    width: 100%;
+    background: var(--surface);
+    border: 1.5px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--text);
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    padding: 13px 44px 13px 42px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+
+  #searchInput:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(232,197,71,0.1);
+  }
+
+  #searchInput::placeholder { color: var(--muted); }
+
+  #clearBtn {
+    position: absolute;
+    right: 12px;
+    background: none;
+    border: none;
+    color: var(--muted);
+    cursor: pointer;
+    font-size: 16px;
+    padding: 4px 6px;
+    border-radius: 4px;
+    display: none;
+    transition: color 0.15s;
+  }
+  #clearBtn:hover { color: var(--accent); }
+
+  /* ── STATUS BAR ── */
+  .status-bar {
+    width: 100%;
+    max-width: 860px;
+    padding: 12px 24px 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .status-text {
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+
+  .status-text strong {
+    color: var(--accent2);
+    font-weight: 500;
+  }
+
+  .pill {
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 20px;
+    background: var(--border);
+    color: var(--muted);
+    letter-spacing: 0.08em;
+  }
+
+  .pill.loaded { background: rgba(79,195,184,0.15); color: var(--accent2); }
+
+  /* ── RESULTS ── */
+  .results-wrap {
+    width: 100%;
+    max-width: 860px;
+    padding: 16px 24px 60px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .no-results {
+    text-align: center;
+    color: var(--muted);
+    padding: 60px 0;
+    font-size: 13px;
+    line-height: 1.8;
+  }
+  .no-results span { display: block; font-size: 28px; margin-bottom: 10px; }
+
+  .result-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 0;
+    background: var(--match-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    animation: fadeIn 0.18s ease both;
+    transition: border-color 0.15s;
+  }
+  .result-row:hover { border-color: var(--accent2); }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(4px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .result-row:nth-child(n) { animation-delay: calc(var(--i, 0) * 0.025s); }
+
+  .cell {
+    padding: 10px 14px;
+    border-right: 1px solid var(--border);
+    font-size: 12.5px;
+    line-height: 1.5;
+    word-break: break-word;
+    overflow: hidden;
+  }
+  .cell:last-child { border-right: none; }
+
+  .cell-label {
+    display: block;
+    font-size: 9px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 3px;
+    font-weight: 500;
+  }
+
+  .cell-value {
+    color: var(--text);
+  }
+
+  .cell-value.empty { color: var(--muted); font-style: italic; }
+
+  mark {
+    background: var(--highlight);
+    color: var(--accent);
+    border-radius: 2px;
+    padding: 0 1px;
+    font-weight: 500;
+  }
+
+  /* truncation snippet */
+  .snippet { display: inline; }
+  .ellipsis { color: var(--muted); }
+
+  /* ── COLUMN HEADERS ── */
+  .col-headers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 0;
+    padding: 0 24px;
+    max-width: 860px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 4px;
+  }
+
+  .col-header {
+    font-size: 9.5px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    padding: 0 14px;
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 600px) {
+    .result-row {
+      grid-template-columns: 1fr;
+    }
+    .cell { border-right: none; border-bottom: 1px solid var(--border); }
+    .cell:last-child { border-bottom: none; }
+    .col-headers { display: none; }
+  }
+
+  /* ── LOADING ── */
+  .loading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--muted);
+    font-size: 12px;
+    padding: 40px 24px;
+  }
+  .spinner {
+    width: 16px; height: 16px;
+    border: 2px solid var(--border);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ── FOOTER ── */
+  footer {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: linear-gradient(to top, var(--bg) 60%, transparent);
+    height: 60px;
+    pointer-events: none;
+    z-index: 2;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">▸ Controlled Vocabulary</div>
+  <h1>TTRPG <span>Thesaurus</span></h1>
+  <p class="subtitle">Search across generic terms, specific terms, and aliases in the CSV.</p>
+</header>
+
+<div class="search-wrap">
+  <div class="search-box">
+    <span class="search-icon">⌕</span>
+    <input type="text" id="searchInput" placeholder="Type to search… e.g. magic, larp, combat" autocomplete="off" spellcheck="false">
+    <button id="clearBtn" title="Clear search">✕</button>
+  </div>
+</div>
+
+<div class="status-bar">
+  <span class="status-text" id="statusText">Loading CSV…</span>
+  <span class="pill" id="statusPill">…</span>
+</div>
+
+<div class="col-headers" id="colHeaders" style="display:none">
+  <span class="col-header">Generic</span>
+  <span class="col-header">Specific</span>
+  <span class="col-header">Aliases</span>
+</div>
+
+<div class="results-wrap" id="results">
+  <div class="loading"><div class="spinner"></div> Loading thesaurus data…</div>
+</div>
+
+<footer></footer>
+
+<script>
+  // ── CONFIG ──────────────────────────────────────────────
+  const CSV_FILENAME = 'TTRPG_thesaurus.csv';
+  const SNIPPET_CHARS = 38;   // chars shown before/after match in truncated cell
+  const MAX_RESULTS   = 300;  // cap to keep DOM snappy
+
+  // ── STATE ───────────────────────────────────────────────
+  let allRows = [];    // [{generic, specific, aliases}]
+  let csvLoaded = false;
+
+  // ── DOM ─────────────────────────────────────────────────
+  const input      = document.getElementById('searchInput');
+  const clearBtn   = document.getElementById('clearBtn');
+  const resultsEl  = document.getElementById('results');
+  const statusText = document.getElementById('statusText');
+  const statusPill = document.getElementById('statusPill');
+  const colHeaders = document.getElementById('colHeaders');
+
+  // ── LOAD CSV ────────────────────────────────────────────
+  async function loadCSV() {
+    // Try local path first, then GitHub raw
+    const sources = [
+      CSV_FILENAME,
+      'https://raw.githubusercontent.com/pmartinolli/MyThesaurus/refs/heads/master/ThesaurusBuilder/TTRPG_thesaurus.csv'
+    ];
+
+    let text = null;
+    for (const src of sources) {
+      try {
+        const res = await fetch(src);
+        if (res.ok) { text = await res.text(); break; }
+      } catch (_) { /* try next */ }
+    }
+
+    if (!text) {
+      statusText.innerHTML = '<strong style="color:#e87347">Failed to load CSV.</strong> Place <code>' + CSV_FILENAME + '</code> beside this file or serve it from a web server.';
+      statusPill.textContent = 'ERROR';
+      resultsEl.innerHTML = '';
+      return;
+    }
+
+    allRows = parseCSV(text);
+    csvLoaded = true;
+
+    statusPill.textContent = allRows.length + ' rows';
+    statusPill.className = 'pill loaded';
+    statusText.innerHTML = 'CSV loaded — <strong>' + allRows.length + '</strong> entries';
+
+    renderResults('');
+    colHeaders.style.display = 'grid';
+  }
+
+  // ── PARSE CSV (handles quoted fields, semicolons in aliases) ──
+  function parseCSV(text) {
+    const lines = text.split(/\r?\n/);
+    const rows = [];
+    // Skip header (line 0)
+    for (let i = 1; i < lines.length; i++) {
+      const line = lines[i].trim();
+      if (!line) continue;
+      const cols = splitCSVLine(line);
+      rows.push({
+        generic:  (cols[0] || '').trim(),
+        specific: (cols[1] || '').trim(),
+        aliases:  (cols[2] || '').trim()
+      });
+    }
+    return rows;
+  }
+
+  function splitCSVLine(line) {
+    const result = [];
+    let cur = '', inQ = false;
+    for (let i = 0; i < line.length; i++) {
+      const c = line[i];
+      if (c === '"') { inQ = !inQ; }
+      else if (c === ',' && !inQ) { result.push(cur); cur = ''; }
+      else { cur += c; }
+    }
+    result.push(cur);
+    return result;
+  }
+
+  // ── SEARCH ──────────────────────────────────────────────
+  function search(query) {
+    if (!query) return allRows;
+    const q = query.toLowerCase();
+    return allRows.filter(r =>
+      r.generic.toLowerCase().includes(q)  ||
+      r.specific.toLowerCase().includes(q) ||
+      r.aliases.toLowerCase().includes(q)
+    );
+  }
+
+  // ── SNIPPET ─────────────────────────────────────────────
+  function makeSnippet(text, query) {
+    if (!text) return '<span class="cell-value empty">—</span>';
+    if (!query) return '<span class="cell-value">' + esc(text) + '</span>';
+
+    const lo = text.toLowerCase();
+    const qi = lo.indexOf(query.toLowerCase());
+    if (qi === -1) return '<span class="cell-value">' + esc(text) + '</span>';
+
+    const matchLen = query.length;
+    let start = Math.max(0, qi - SNIPPET_CHARS);
+    let end   = Math.min(text.length, qi + matchLen + SNIPPET_CHARS);
+
+    const pre   = start > 0  ? '<span class="ellipsis">…</span>' : '';
+    const post  = end < text.length ? '<span class="ellipsis">…</span>' : '';
+
+    const slice = text.slice(start, end);
+    const sliceLo = slice.toLowerCase();
+    const localIdx = sliceLo.indexOf(query.toLowerCase());
+    const highlighted =
+      esc(slice.slice(0, localIdx)) +
+      '<mark>' + esc(slice.slice(localIdx, localIdx + matchLen)) + '</mark>' +
+      esc(slice.slice(localIdx + matchLen));
+
+    return '<span class="cell-value">' + pre + highlighted + post + '</span>';
+  }
+
+  function esc(s) {
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  // ── RENDER ──────────────────────────────────────────────
+  function renderResults(query) {
+    const matches = search(query);
+    const shown   = matches.slice(0, MAX_RESULTS);
+
+    if (!query && allRows.length) {
+      statusText.innerHTML = '<strong>' + allRows.length + '</strong> entries — start typing to filter';
+      colHeaders.style.display = 'grid';
+    }
+
+    if (matches.length === 0) {
+      statusText.innerHTML = 'No matches for <strong>"' + esc(query) + '"</strong>';
+      resultsEl.innerHTML = `
+        <div class="no-results">
+          <span>∅</span>
+          No entries found for "<strong>${esc(query)}</strong>".<br>Try a different keyword.
+        </div>`;
+      return;
+    }
+
+    const cap = matches.length > MAX_RESULTS
+      ? ' <span style="color:var(--muted)">(showing first ' + MAX_RESULTS + ')</span>'
+      : '';
+    statusText.innerHTML = '<strong>' + matches.length + '</strong> match' + (matches.length !== 1 ? 'es' : '') + cap;
+
+    const html = shown.map((row, i) => `
+      <div class="result-row" style="--i:${i}">
+        <div class="cell">
+          <span class="cell-label">Generic</span>
+          ${makeSnippet(row.generic, query)}
+        </div>
+        <div class="cell">
+          <span class="cell-label">Specific</span>
+          ${makeSnippet(row.specific, query)}
+        </div>
+        <div class="cell">
+          <span class="cell-label">Aliases</span>
+          ${makeSnippet(row.aliases, query)}
+        </div>
+      </div>
+    `).join('');
+
+    resultsEl.innerHTML = html;
+  }
+
+  // ── EVENTS ──────────────────────────────────────────────
+  let debounceTimer;
+  input.addEventListener('input', () => {
+    const q = input.value;
+    clearBtn.style.display = q ? 'block' : 'none';
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(() => {
+      if (csvLoaded) renderResults(q.trim());
+    }, 120);
+  });
+
+  clearBtn.addEventListener('click', () => {
+    input.value = '';
+    clearBtn.style.display = 'none';
+    input.focus();
+    if (csvLoaded) renderResults('');
+  });
+
+  // ── INIT ────────────────────────────────────────────────
+  loadCSV();
+</script>
+</body>
+</html>
