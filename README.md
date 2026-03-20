@@ -19,7 +19,7 @@ Quelques méthodes analogiques (pas de programmation) pour travailler avec un th
 
 Cet outil en Python prend un thésaurus rédigé sous la forme d'un tableau CSV (avec colonnes pertinentes) et il le transforme dans un joli fichier PDF facile à consulter. En effet, comme il est en une page (pour un thésaurus de taille raisonnable), il est facilement lisible, plastifiable ou collable comme couverture d'un cahier de laboratoire par exemple. 
 - script Python pour [transformer le CSV en PDF](https://github.com/pmartinolli/MyThesaurus/blob/master/ThesaurusBuilder/mythesaurus_csv2pdf.py)
-- exemple de thésaurus à deux niveaux pour le jeu de rôle sur table : [en CSV](https://github.com/pmartinolli/MyThesaurus/blob/master/ThesaurusBuilder/TTRPG_thesaurus.csv) et [en PDF](https://github.com/pmartinolli/MyThesaurus/blob/master/ThesaurusBuilder/TTRPG_thesaurus.pdf)
+- exemple de thésaurus à deux niveaux pour le jeu de rôle sur table : [en CSV](https://github.com/pmartinolli/MyThesaurus/blob/master/ThesaurusBuilder/TTRPG_thesaurus.csv) et [en PDF](https://github.com/pmartinolli/MyThesaurus/blob/master/ThesaurusBuilder/TTRPG_thesaurus.pdf). Pour naviguer facilement le CSV et chercher des mots dedans, télécharger le CSV et ce fichier [HTML](https://github.com/pmartinolli/MyThesaurus/blob/master/ThesaurusBuilder/thesaurus_search.html) et les mettre au même niveau dans un dossier, puis ouvrir le fichier HTML.
 
 ## *Thesaurus formatter*
 
